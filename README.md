@@ -2,7 +2,7 @@
 Status: Alpha  
 Version: v0.1.2  
 Author: [Gamemaster](https://steamcommunity.com/id/gamemaster1379)  
-Discord: https://discord.gg/NmKHXPy  
+Discord: https://discord.gg/NTxDN7K
 
 This mod is currently in alpha. No weapons are final and concepts are subject to change at anytime.
 
