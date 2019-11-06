@@ -1,0 +1,1173 @@
+"custom_weapons_v3"
+{
+	"STEAM_0:0:27384306" // Gamemaster
+	{
+		"7"   // Wrench
+		{
+			"preserve-attributes"	"1"
+			"quality"				"7"
+			"1"						"134 	;	4" 		// unusual effect, community sparkle
+		}
+		"277" // Saxton Hale
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"7"
+			"1"						"134 	; 	13" 	 // unusual effect, burning flames
+			"2"						"370	;	29"		 // unusual effect, stormy storm
+		}
+		"197" // Upgradeable Wrench
+		{
+			"preserve-attributes"	"1"
+			"quality"				"7"
+			"1"						"134 	;	4" 		// unusual effect, community sparkle
+			"2"						"370	;	703"	// unusual effect, cool
+			"3"						"150	;	1"		// turn to gold
+			"4"						"542	;	1"		// item style override, australium
+			"5"						"2053	;	1"		// is festivized
+			"6"						"2025	;	1"		// is australium
+			"7"						"2014	;	6"		// villianous violet sheen
+			"8"						"2013	;	2003"	// cerebral discharge 
+			"9"						"2025	;	3"		// professional killstreak active
+		}
+		"199" // Upgradeable Shotgun
+		{
+			"preserve-attributes"	"1"
+			"quality"				"7"
+			"1"						"134 	;	4" 		// unusual effect, community sparkle
+			"2"						"370	;	701"	// unusual effect, hot
+			"3"						"2053	;	1"		// is festivized
+			"4"						"2025	;	1"		// is australium
+			"5"						"2014	;	1"		// team sheen
+			"6"						"2013	;	2006"	// singularity 	
+			"7"						"2025	;	3"		// professional killstreak active			
+		}
+		"671" // Brown Bomber
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"7"
+			"1"						"142 	; 	9031664" // set item tint rgb | baby blue
+			"2"						"261 	; 	9031664" // set item tint rgb | baby blue
+			"3"						"134 	; 	99" 	 // nebula
+			"4"						"370	;	91"		 // abduction
+		}
+		"30629" // Support Spurs
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"7"
+			"1"						"142 	; 	9031664" // set item tint rgb | baby blue
+			"2"						"261 	; 	9031664" // set item tint rgb | baby blue
+		}
+	}
+	"*" // Everyone
+	{
+		"36" // Blutsauger
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"17 	;	.02" 	// +3% ubercharge on hit
+			"2"						"3 		; 	.5" 	// -25% clip size penalty
+			"3"						"484	;	1" 		// mad milk syringes
+		}
+		"35" // Kritzkrieg
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"739 	; 	.9" 	// 10% slower build on overhealed patients
+			"2"						"18 	; 	1" 		// ubercharge is kritzkrieg
+			"3"						"10 	;	1.30" 	// 30% faster build rate on patients
+		}
+		"37" // Ubersaw
+		{
+			"preserve-attributes"	"0"
+			"1"						"17 	;	-.1" 	// -10 ubercharge on hit
+			"2"						"2 		; 	1.4" 	// +40% damage bonus
+		}
+		"38" // Axtinguisher
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"209	;	1"		// minicrit vs burning
+			"2"						"77 	; 	.5" 	// -50% primary max ammo
+		}
+		"40" // Backburner
+		{
+			"preserve-attributes"	"1"					// must preserve. bugged otherwise.
+			"quality"				"10"
+			"1"						"838 	; 	1" 		// flame particles bounce off surfaces
+			"2"						"837 	; 	1.5" 	// +50% reflected flame length bonus
+			"3"						"256 	; 	2" 		// +100% airblast refire time penalty
+			"4"						"24 	; 	1" 		// mod flamethrower back crit
+			"5"						"170 	; 	1" 		// airblast cost
+			"6"						"859 	;	2"		// reflect count
+			"7"						"832 	; 	1" 		// airblast gives speed boost to teammates
+		}
+		"41" // Natascha
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"215 	; 	-75" 	// apply -75 z velocity on damage
+			"2"						"1 		; 	.75" 	// -25% damage penalty
+		}
+		"43" // KGB
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"215 	; 	250" 	// apply 250 positive z velocity
+			"2"						"1 		; 	.75" 	// -25% damage penalty
+		}
+		"44" // Sandman
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+ 			"1"						"38 	; 	1" 		// mod launches baseballs
+			"2"						"279 	; 	2" 		// +100% increase in grenades (baseballs, baubles) on wearer
+			"3"						"177	;	1.33"	// +33% longer deploy
+			"4"						"326	;	1.4"	// 50% more jump height on active
+		}
+		"45" // Force-a-Nature
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"44 	; 	0" 		// scattergun knockback disabled
+			"2"						"6 		; 	.75" 	// +25% fire rate bonus
+			"3"						"45 	; 	1.6" 	// +60% bullets per shot
+			"4"						"1  	; 	.90" 	// -10% damage penalty
+			"5"						"4  	; 	.33" 	// -66% clip size penalty
+			"6"						"43 	; 	1" 		// scattergun no reload single
+			"7"						"36 	; 	2.5" 	// -150% accuracy
+			"8"						"96 	; 	1.1" 	// +10% reload time increase
+		}
+		"57" // Razorback
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"57 	; 	-2" 	// -1 HP/tick on wearer
+			"2"						"52 	; 	1" 		// backstab shield
+		}
+		"61" // Ambassador
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"51 	; 	1"		// revolver use hit locations
+			"2"						"3 		; 	.33" 	// -66% clip size penalty
+			"3"						"2 		; 	1.14" 	// 10% damage bonus
+			"4"						"96 	; 	1.5" 	// +50% reload time increase
+			"5"						"868 	; 	1" 		// crit dmg falloff
+		}
+		"127" // Direct Hit
+		{
+			"preserve-attributes" 	"1"
+			"quality"				"10"
+			"1"						"6 		; 	.35" 	// +65% fire rate bonus
+ 			"2"						"3 		; 	.5" 	// +50% clip size penalty
+			"3"						"1 		; 	.5" 	// +50% damage penalty
+			"4"						"267 	; 	1" 		// deals crits while the wielder is rocket jumping
+			"5"						"207	;	1.25"	// +25% self damage from explosive jumping
+			"6"						"868 	1	1"		// crits have falloff
+			"7"						"114	;	0"		// not minicrit airborne
+		}
+		"128" // The Equalizer
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"125 	;	-25" 	// -50 HP max health penalty
+			"2"						"800 	;	1.5" 	// +50% patient max overheal bonus 
+		}
+		"130" // Scottish Resistance
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"240 	;	0.6" 	// +20% reload faster while healed 
+			"2"						"241 	; 	1.2" 	// +20% longer reloading
+			"3"						"128 	; 	1" 		// provide attributes on active on active
+			"4"						"854	;	0"		// -100% healing while medic heals you
+		}
+		"131" // Chargin' Targe
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"676 	;	 1" 	// lose charge on damage
+			"2"						"54 	; 	.8" 	// -20% move speed penalty
+			"3"						"64 	; 	.5" 	// +50% damage resistance to blast
+			"4"						"66 	; 	.5" 	// +50% damage resistance to bullets
+			"5"						"60 	; 	.5" 	// +50% damage resistance to fire
+		}
+		"132" // Eyelander
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"219 	;	1" 		// decap type (collects heads)
+			"2"						"781 	; 	1" 		// is a sword
+			"3"						"54 	; 	.88" 	// -12% move speed penalty
+			"4"						"263 	; 	1.5" 	// +50% bounds multiplier (wider)
+		}
+		"133" // The Gunboats
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"259 	; 	1" 		// boots have falling stomp
+		}
+		"141" // Frontier Justice
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"6 		; 	.66" 	// +33% fire rate bonus
+			"2"						"96 	; 	1.66"	// +66% longer reload
+			"3"						"3 		;	.33" 	// -66% clip size penalty
+			"4"						"136	;	1"		// mod sentry killed revenge
+		}
+		"142" // Gunslinger
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"26	 	; 	25" 	// +25 health bonus
+			"2"						"124 	; 	1" 		// wrench builds minis instead
+			"3"						"148 	; 	.6" 	// -40% building cost
+			"4"						"287 	; 	1.2" 	// +20% increase in mini damage
+			"5"						"286 	; 	.6" 	// -40% building health penalty
+			"6"						"321 	; 	.5" 	// +50% build rate bonus
+			"7"						"2043 	; 	0" 		// -100% upgrade rate to buildings (no upgrading)
+			"8"						"68 	; 	1" 		// +1 capture rate on wearer
+		}
+		"153" // Homewrecker
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"146 	;	1" 		// can damage sappers
+			"2"						"226 	;	1" 		// honorbound - sheathing without killing costs 50 HP
+			"3"						"137 	;	2.5" 	// +150% damage vs buildings
+			"4"						"224 	;	.5" 	// -50% damage penalty while half dead
+		}
+		"154" // Pain Train
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"239 	; 	1.05" 	// 20% extra charge rate for healer
+			"2"						"69 	; 	.75" 	// 25% less healing from healers
+			"3"						"800 	; 	.5" 	// -50% overhealing on patient
+		}
+		"155" // Southern Hospitality
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"81 	; 	.5" 	// -50% decrease of max metal to 100 total
+			"2"						"113 	; 	30" 	// +30 metal every 5 seconds on wearer
+			"3"						"148 	; 	.77" 	// -23% building cost bonus
+			"4"						"94 	; 	1.5" 	// +50% increased repair rate
+		}
+		"171" // Tribalman's Shiv
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"1 		; 	.8" 	// -20% damage penalty
+			"2"						"340 	; 	1" 		// reveal disguised spies on hit
+			"3"						"339 	; 	1" 		// reveal cloaked spies on hit
+		}
+		"172" // Skullcutter
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"781 	; 	72" 	// is a sword
+			"2"						"774 	; 	-60" 	// -60s charge duration (no charging)
+			"3"						"31 	; 	3" 		// 5s of critboost on kill
+			"4"						"772 	; 	2.5" 	// +150% holster time penalty
+		}
+		"173" // Vita-Saw
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"26 	; 	15" 	// +15 HP bonus
+			"2"						"54 	; 	.90" 	// -10% move speed penalty
+			"3"						"123 	; 	1.10" 	// +10% move speed bonus while active
+		}
+		"214" // Powerjack
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"26 	; 	25" 	// +25 HP on wearer
+			"2"						"734 	; 	.50"	// 50% reduced healing from all sources
+		}
+		"215" // Degreaser
+		{
+			"preserve-attributes" 	"1"					// must preserve. bugged otherwise
+			"quality"				"10"
+			"1"						"257 	; 	.50" 	// -50% airblast pushback PENALTY
+			"2"						"170 	; 	1.5" 	// +100% airblast cost increase
+			"3"						"173 	; 	1.25" 	// +25% ammo consumed per second PENALTY
+			"4"						"72 	; 	1" 		// standard afterburn damage
+			"5"						"833	;	1"		// turn projectiles into small ammo boxes
+			"6"						"827	;	1"		// airblast extinguish teammate disabled
+			"7"						"257	;	-1.5"	// airblast velocity is 150% downward
+			"8"						"177	;	1"		// deploy time increased to standard
+		}
+		"220" // Shortstop
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"279 	; 	2" 		// +200% increase in grenades (baseballs, baubles) on wearer
+			"2"						"318 	; 	.8" 	// +20% faster reload rate
+			"3"						"6 		; 	.8" 	// +20% fire rate bonus
+			"4"						"3 		; 	.75" 	// -25% clip size penalty
+		}
+		"221" // Mackerel
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"438 	; 	1" 		// crit vs wet players
+			"2"						"1 		; 	.75" 	// -25% damage penalty
+		}
+		"224" // l'etranger
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"360 	; 	1" 		// damage all connected by medibeam
+			"2"						"336 	; 	1" 		// hide enemy health
+			"3"						"1 		; 	.75" 	// -25% damage penalty
+		}
+		"225" // Your Eternal Reward
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"6 		;	.75" 	// +25% fire rate bonus
+			"2"						"150 	;	1" 		// victims turn to gold
+			"3"						"736 	;	2" 		// +2s speed boost on kill
+			"4"						"253 	; 	.5" 	// +.5s longer cloaking penalty
+			"5"						"221 	; 	1.35" 	// +35% decloaking duration penalty
+		}
+		"228" // Black Box
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"104 	; 	.4" 	// -60% projectile speed penalty
+			"2"						"99 	; 	1.10" 	// +15% bigger splash radius bonus
+			//"3"					"214	;	1" 		// strange weapon counts kills | TEST
+		}
+		"230" // Sydney Sleeper
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"20 	; 	1" 		// always crit vs burning jplayers
+			"2"						"41 	; 	1.25" 	// +25% faster charge rate bonus
+			"3"						"42 	; 	1"	 	// rifle can't headshot penalty
+			"4"						"279 	; 	2" 		// +1 grenade maxammo (+1 Jarate)
+			"5"						"175 	; 	5" 		// 5s jarate duration on apply
+		}
+		"231" // Darwin's Danger Shield
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"63 	; 	2.5" 	// +100% more damage from crits penalty
+			"2"						"527 	; 	1" 		// afterburn immunity
+			"3"						"66 	; 	.6" 	// +40% bullet damage resistance bonus
+			"4"						"64 	; 	.6" 	// +40% blast damage resistance bonus
+		}
+		"232" // Bushwacka
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"362 	; 	1" 		// always crit players from behind behind
+			"2"						"772 	; 	2.5" 	// +150% holster time increase penalty
+		}
+		"239" // Gloves of Running Urgently
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"442 	; 	1.35" 	// +35% faster move speed bonus 
+			"2"						"128 	; 	1" 		// provide attributes on active on active
+			"3"						"852 	; 	1.5" 	// +50% damage vuln penalty
+			"4"						"772 	; 	2.25" 	// +125% holster penalty
+		}
+		"265" // Sticky Jumper
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"88 	; 	6" 		// +6 max stickybombs out bonus
+		}
+		"266" // Horseless Headless Horsemann's Headtaker
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"219 	;	1" 		// decap type (collects heads)
+			"2"						"781 	; 	1" 		// is a sword
+			"3"						"54 	; 	.88" 	// -12% move speed penalty
+			"4"						"263 	; 	1.5" 	// +50% bounds multiplier (wider)
+		}
+		"304" // Amputator
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"525 	; 	1.5" 		// 50% increase in push force
+		}
+		"305" // Crusader's Crossbow
+		{ 
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"4 		; 	4" 		// +300% clip size bonus
+			"2"						"318 	; 	.33" 	// +25% reload rate bonus
+			"3"						"1 		; 	.35" 	// -65% damage penalty (heals, too)
+			"4"						"474 	; 	1" 		// heal friendly buildings (+4 health on hit)
+			"5"						"42 	; 	1" 		// sniper no headshots
+		}
+		"307" // Caber
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"207 	; 	1000" 	// +10000% blast dmg to self penalty
+			"2"						"2 		; 	3"		// +100% damage bonus
+			"3"						"772 	; 	2" 		// +100% holster rate penalty
+			"4"						"773 	; 	2" 		// +100% deploy rate penalty
+		}
+		"308" // Loch n Load
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"681 	; 	1" 		// grenades roll, but don't bounce
+			"2"						"103 	; 	1.25" 	// +25% projectile speed bonus
+			"3"						"114 	; 	1" 		// minicrit targets knocked airbone by explosions
+			"4"						"100 	; 	0.5" 	// -50% blast radius penalty
+			"5"						"3		;	.75"	// 25% clip size penalty
+		}
+		"310" // Warrior's Spirit
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"125 	; 	-125" 	// -125 HP penalty
+			"2"						"57 	; 	40" 	// +40 health regen per second bonus
+		}
+		"312" // Brass Beast
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"242 	; 	1" 		// killer of your medic becomes marked for death
+			"2"						"233 	; 	1.35" 	// 35% damage bonus while medic heals you 
+			"3"						"1 		; 	.65" 	// damage penalty 35%
+			"4"						"323 	; 	2" 		// attack projectiles level 2
+		}
+		"317" // Candy Cane
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"57 	; 	5" 		// +5 health regeneration per second
+			"2"						"128 	; 	1" 		// provide on active
+			"3"						"412 	; 	1.4" 	// +40% damage vulnerability on wearer
+		}
+		"325" // Basher
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"5 		; 	1.6" 	// +60% fire rate penalty
+			"2"						"339 	; 	1" 		// reveal cloaked spies on hit
+			"3"						"337 	; 	10" 	// subtract 10 medigun charge on victim on hit
+		}
+		"326" // Back Scratcher
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"149 	; 	5" 		// add 5 seconds of bleed on hit
+			"2"						"204 	; 	1" 		// hit self on miss
+		}
+		"327" // Claidheamh Mor
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"219 	;	1" 		// decap type (collects heads)
+			"2"						"781 	; 	1" 		// is a sword
+			"3"						"125 	; 	-25" 	// -25 HP max health additive penalty
+			"4"						"263 	; 	1.35" 	// +35% melee range multiplier bonus
+		}
+		"329" // The Jag
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"276 	; 	1" 		//  bidirectional teleporters
+			"2"						"345 	; 	2" 		// +100% increased dispenser radius bonus
+			"3"						"80  	; 	1.5" 	// +50% more base metal (300 base metal)
+			"4"						"343 	; 	1.5" 	// -5% slower sentry firing rate penalty
+			"5"						"286 	; 	.8" 	// -20% less building health penalty
+		}
+		"331" // Fists of Steel
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"128 	; 	1" 		// provide attributes on active
+			"2"						"205 	; 	.1" 	// -90% reduction from ranged damage bonus
+			"3"						"54  	; 	.01" 	// -99% move speed penalty
+			"4"						"772 	; 	1.2" 	// -20% holster speed penalty
+			"5"						"252 	; 	.01" 	// +100% damage force reduction bonus
+			"6"						"68  	; 	-1" 	// -1 capture rate on wearer penalty
+			"7"						"855 	; 	3"		// -5 maxhealth/s while active
+			"8"						"236	;	1"		// block healing while in use
+			"9"						"534	;	.01"	// airblast vulnerability multiplier
+		} 
+		"348" // Sharpened Volcano Fragment
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"2067 	; 	1" 		// attacks vs burning minicrits and extinguishes enemy. speed boost on kill.
+			"2"						"1 		; 	.9" 	// -10% damage penalty
+		}
+		"349" // Sun on a stick
+		{ 
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"107 	; 	1.15" 	// +15% move speed bonus
+			"2"						"61 	; 	1.5" 	// +50% vulnerability from fire
+		}
+		"355" // Fan O War
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"522 	; 	1" 		// damage applies airblast knockback
+			"2"						"1 		; 	.1" 	// -90% damage penalty
+			"3"						"5 		; 	1.6" 	// -60% fire rate penalty
+		}
+		"356" // Kunai
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"217 	; 	1" 		// sanguisuge
+			"2"						"855 	; 	50" 	// max health drains while active
+		}
+		"357" // Zatoichi
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"224 	; 	1.5" 	// +50% damage bonus while half dead
+			"2"						"225 	; 	.5" 	// -50% damage penalty while half alive
+			"3"						"180 	; 	100" 	// +100 HP on kill
+			"4"						"781 	; 	1" 		// is a sword
+		}
+		"401" // Shahanshah
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"146 	; 	1" 		// weapon can damage sappers
+			"2"						"5 		; 	1.25" 	// -25% fire rate penalty
+		}
+		"402" // Bazaar Bargain	
+		{
+			"preserve-attributes"	"1" 				// head counter harcoded, must be preserved to not bug
+			"quality"				"10"
+			"1"						"5 		; 	2" 		// +100% fire rate penalty
+			"2"						"41 	; 	1.75" 	// +25% faster charge rate on sniper rifle (-50% from base rifle)
+		}
+		"404" // Persian Persuader
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"6 		; 	.66" 	// +33% swing speed bonus
+			"2"						"778 	; 	.15" 	// +15% of meter recharged on hit
+			"3"						"1 		; 	.5" 	// +50% damage penalty
+		} 
+		"405" // Ali Baba's Wee Booties
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"135 	; 	.4" 	// -60% self blast damage bonus
+		}
+		"406" // Splendid Screen
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"247 	; 	1" 		// charge impact damage at any range
+			"2"						"774 	; 	-.75" 	// -.75 seconds charge duration penalty
+			"3"						"248 	; 	1.5" 	// +50% increase in impact damage bonus
+			"4"						"249 	; 	1.35" 	// +35% faster recharge rate bonus
+			"5"						"782 	; 	1" 		// ammo pickups give charge
+		}
+		"411" // Quick Fix
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"12 	;	.33" 	// +66% overheal decay penalty
+			"2"						"231 	;	2" 		// Ubercharge is 300% megahealing
+			"3"						"8 		; 	1.4" 	// +40% faster healing bonus
+			"4"						"314 	;	4" 		// +4s ubercharge duration bonus
+			"5"						"11 	;	1.25" 	// +25% more max overhealing bonus
+			"6"						"9 		; 	.95" 	// -5% ubercharge rate penalty
+ 		}
+		"412" // Overdose
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"123 	; 	1.10" 	// +10% move speed bonus while active
+			"2"						"414 	; 	1" 		// provide on active
+			"3"						"182 	; 	1" 		// slow enemy on hit for 1 second
+			"4"						"5 		;	1.75" 	// -75% fire rate penalty
+		}
+		"413" // Solemn Vow
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"57 	; 	3" 		// +3 health regenerated per second bonus
+			"2"						"125 	; 	-10" 	// -10 max HP penalty
+		}
+		"414" // The Liberty Launcher
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"488 	; 	1" 		// rocket specialist 1 (15% rocket speed bonus , max damage on direct, stun target, increase blast radius 15%)
+			"2"						"100 	; 	.75" 	// -25% splash radius penalty (counteract rocket specialist 15% bonus)
+			"3"						"1 		; 	.65" 	// -15% damage penalty.
+			"4"						"3 		; 	.75" 	// -25% clip size penalty
+			"5"						"6 		; 	.75" 	// +25% fire rate bonus
+			"6"						"199 	; 	.75" 	// +25% holster speed bonus
+			"7"						"207	;	.75"	// +25% less blast damage to self bonus
+		}
+		"415" // Reserve Shooter
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"45 	; 	.6" 	// -40% bullets per shot penalty
+			"2"						"216	;	400"	// look velocity on hit
+ 		}
+		"416" // Market Gardener
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"267 	; 	1" 		// crit while airborne by explosive jumping
+			"2"						"206 	; 	1.75" 	// 150% melee damage vulnerability while active
+			"3"						"275 	; 	1" 		// cancel falling damage
+ 		}
+		"425" // Family business
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"4 		; 	1.5" 	// +50% clip size bonus
+			"2"						"77 	; 	.4" 	// -60% reduction in primary minigun ammo penalty
+		}
+		"424" // Tomislav
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"75 	; 	1.5" 	// +50% faster move speed while spun up bonus
+			"2"						"5 		; 	1.5" 	// -50% fire rate penalty
+			"3"						"238 	; 	1" 		// no spin up sounds
+ 		}
+		"426" // Eviction Notice
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"199 	;	.6" 	// +40% faster holster bonus
+			"2"						"1 		;	.5" 	// -50% damage penalty
+			"3"						"149 	;	5" 		// add 5 seconds of bleed on hit
+		}
+		"442" // Righteous Bison
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"360 	; 	1" 		// damage all connected by medibeam
+			"2"						"1		;	.75"	// 25% damage penalty
+ 		}
+		"447" // Disciplinary Action
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1" 					"1 		; 	1"		// no damage penalty
+			"2"						"855 	; 	2"		// -5 maxhealth/s while active
+		}
+		"448" // Soda Popper
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"97 	; 	.75" 	// -25% reload time bonus
+			"2"						"6 		; 	.5" 	// +50% fire rate bonus
+			"3"						"3 		; 	.34" 	// -66% clip size penalty
+			"4"						"43 	; 	1" 		// reload all at once
+			"5"						"250 	; 	1"		// enable triple jump
+			"6"						"868 	;	1" 		// crits affected by falloff
+			"7"						"288	;	1"		// cannot be crit boosted
+			"8"						"1		;	.65"	// minicrits become crits
+		}
+		"449" // Winger
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"45 	;	3"  	// +2 bullets per shot bonus
+			"2"						"298 	;	2" 		// +1 bullets consumed per shot penalty
+			"3"						"36 	;	3" 		// +200% bullet spread penalty
+			"4"						"1 		;	.66" 	// -33% damage penalty
+		}
+		"450" // Atomizer
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"613 	;	 5" 	// 5 seconds of minicrit boost on kill
+			"2"						"1 		;	 .5" 	// -25% damage penalty
+		}
+		"452" // Three-Rune Blade
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"5 		; 	1.6" 	// +60% fire rate penalty
+			"2"						"339 	; 	1" 		// reveal cloaked spies on hit
+			"3"						"337 	; 	10" 	// subtract 10 medigun charge on victim on hit
+		}
+		"460" // Enforcer
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"125 	; 	-25" 	// -25 max health additive penalty
+			"2"						"2 		; 	1.2" 	// +20% damage bonus
+		}
+		"461" // Big Earner
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"253 	; 	-.7" 	// -.7 seconds cloaking time bonus
+			"2"						"82 	; 	2.10" 	// +225% faster cloak consumption penalty
+		}
+		"482" // Nessie's Nine Iron
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"219 	;	1" 		// decap type (collects heads)
+			"2"						"781 	; 	1" 		// is a sword
+			"3"						"54 	; 	.88" 	// -12% move speed penalty
+			"4"						"263 	; 	1.5" 	// +50% bounds multiplier (wider)
+		}
+		"513" // The Original
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"58 	; 	.5" 	// -50% rocket jump propulsion
+			"2"						"4 		; 	1.5" 	// +50% clip size bonus
+			"3"						"289 	; 	1" 		// centerfire projectile
+		}
+		"525" // Diamondback
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"296 	; 	1" 		// saps and backstabs accumulate crits
+			"2"						"298 	; 	2"		// +1 bullet consumed per shot
+			"3"						"5 		; 	2.25" 	// +125% fire rate penalty
+			"4"						"45 	; 	2"		// +1 bullet per shot bonus
+			"5"						"36 	; 	3" 		// +200% spread penalty
+			"6"						"1 		; 	.75" 	// -25% damage penalty
+		}
+		"526" // Machina
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"305 	; 	1" 		// sniper fires tracer
+			"2"						"41		; 	1.5"	// 50% faster charge rate on sniper rifle
+			"3"						"378 	; 	.6" 	// -40% move speed penalty while scoped
+		}
+		"527" // Widowmaker
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"298 	; 	45" 	// -45 metal per shot penalty
+			"2"						"45  	; 	1.25" 	// +25% bullet sper shot bonus
+			"3"						"36  	; 	1.1" 	// +10% spread penalty
+		}
+		"588" // Pomson 6000
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"281 	; 	1" 		// energy weapon no ammo
+			"2"						"285 	; 	1" 		// energy weapon no deflect
+			"3"						"284 	; 	1" 		// energy weapon no hurt buildings
+			"4"						"283 	; 	1" 		// penetrates
+		}
+		"589" // Eureka Effect
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"148 	;	1.50 " 	// +50% increase in building cost penalty
+			"2"						"93 	;	.2" 	// -80% building construction effectiveness
+			"3"						"2043 	;	.6" 	// -40% building upgrade rate per hit
+			"4"						"343 	;	.9" 	// +10% increase sentry fire rate bonus
+			"5"						"344 	;	1.10" 	// +10% increase sentry coverage radius bonus
+			"6"						"286 	;	1.2"	// +20% increase in building health
+		}
+		"593" // Third Degree
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"362	; 	1" 		// always crit from behind
+			"2"						"2 		; 	1.25" 	// +25% damage bonus
+			"3"						"363  	; 	1" 		// critical hits do no damage
+		}
+		"594" // Phlogistinator
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"356	;	0"		// airblast enabled
+		}
+		"608" // Bootlegger
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"259 	; 	1" 		// boots have falling stomp
+			"2"						"534 	; 	.25" 	// -75% airblast resistance bonus
+			"3"						"610 	; 	2" 		// +100% increased air control bonus
+		}
+		"642" // Cozy Camper
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"26		;	25"		// max health additive bonus
+			"2"						"341	;	10"		// jarate backstabber
+
+		}
+		"648" // Wrap Asassin
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"869	; 	1" 		// crits become minicrits
+			"2"						"346	; 	1" 		// bat launches ornaments
+		}
+		"649" // Spy-cicle
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"53  	; 	1" 		// wearer cannot ignite	
+			"2"						"347 	; 	1" 		// victim turns to ice
+			"3"						"231 	; 	1" 		// afterburn immunity
+			"4"						"168 	;	1"		// disguise no burning
+			"5"						"852	;	.7"		// 20% dmg redcution
+			"6"						"61 	;	1.2"	// 10% fire vuln to fire
+			"7"						"534 	; 	1.75" 	// airblast vuln
+			"8"						"54 	; 	.93" 	// 7% less move speed
+		}
+		"656" // Holiday punch
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"409 	; 	1" 		// user forced to laugh on kill
+			"2"						"2 		; 	1.5" 	// +25% fire rate bonus
+			"3"						"128   	; 	1" 		// provide on active
+			"4"						"30 	; 	1" 		// fists have radial buff
+			"5"						"182	; 	.75"	// slow for .75s
+			"6"						"326	;	-1"		// no jumping
+			"7"						"31		;	8"		// 8s of critboost on kill
+		}
+		"730" // Beggar's Bazooka
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"424 	; 	1.5" 	// +50% clip size bonus
+			"2"						"642 	; 	1" 		// shoots mini rockets
+			"3"						"100 	; 	.5" 	// -90% splash radius penalty
+			"4"						"411 	; 	5"		// +5 degree spread angle penalty
+			"5"						"241 	; 	1.2" 	// +20% slower reload penalty
+			"6"						"104 	; 	.66" 	// -33% projectile speed penalty
+			"7"						"6   	; 	.3" 	// +70% fire rate bonus
+			"8"						"488 	; 	2" 		// rocket specialist level 2
+			"9"						"1   	; 	.5" 	// -50% damage penalty
+			"10"					"522 	; 	1" 		// damage causes airblast
+			"11"					"413 	; 	1" 		// auto fire full clip
+			"12"					"417 	; 	1" 		// can overload
+		}
+		"739" // Lollichip
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"358 	; 	1" 		// critical hits forces victim to laugh
+			"2"						"363 	; 	1" 		// critical hits do no damage
+			"3"						"362 	1	1"		// always crit from behind
+		}
+		"751" // Cleaner's Carbine
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"216 	; 	150" 	// apply 150 look velocity on hit
+			"2"						"215 	; 	100" 	// apply 100 z velocity on hit
+			"3"						"3 		; 	.8" 	// -20% clip size penalty
+			"4"						"5 		; 	1.25" 	// -25% fire rate penalty
+		}
+		"752" // Heatmaker
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"180 	; 	75" 	// +75 HP on kill
+			"2"						"77 	; 	.5" 	// -60% ammo penalty
+			"3"						"156 	;	 1"		// silent killer
+		}
+		"772" // Baby Face Blaster
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"418 	; 	1" 		// boost on damage
+			"2"						"793 	; 	1" 		// add hype on damage
+			"3"						"532 	; 	.35" 	// .35 hype decay per second
+			"4"						"54  	; 	.85" 	// -15% move speed penalty
+			"5"						"535 	; 	1.5" 	// +50% knockback from damage penalty
+			"6"						"534 	; 	1.5" 	// +50% airblast vulnerability penalty
+		}
+		"773" // Pretty Boy's Pocket Pistol
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"179 	; 	1" 		// minicrits become crits
+			"2"						"3 		; 	.5"		// -50% clip size penalty
+		}
+		"775" // The Escape Plan
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"69 	; 	.25"	// -75% health from healers penalty
+			"2"						"108 	; 	1.75"	// +75% health from packs bonus
+		}
+		"810" // Red Tape Recorder
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"426 	; 	0"		// -100% damage to buildings penalty
+			"2"						"428 	; 	2"		// +100% sappear health bonus
+		}
+		"811" // Huo Long Heater
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"430 	;	12" 	// ring of fire while aiming
+			"2"						"431	;	4" 		// -4 ammo per second while aiming
+			"3"						"280 	;	6" 		// override projectile to flares
+			"4"						"103 	;	.5" 	// -50% projectile speed
+			"5"						"5 		;	1.75" 	// -75% fire rate penalty
+			"6"						"868 	;	1" 		// crits affected by falloff
+			"7"						"289 	;	1" 		// centerfire projectile
+			"8"						"20 	;	1" 		// crit vs burning
+			"9"						"179 	;	1" 		// minicrits become crits
+			"10"					"411 	; 	5" 		// +5 degrees projectile deviation
+			"11"					"77 	; 	.75" 	// -25% clip size penalty
+		}
+		"813" // Neon
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"182 	; 	2" 		// +2s of slow on hit
+			"2"						"522 	; 	1" 		// damage causes airblast
+			"3"						"54  	; 	.8"		// -20% damage penalty
+		}
+		"997" // Rescue Ranger
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"394  	; 	.3" 	// +70% fire rate bonus
+			"2"						"138 	; 	.5" 	// -50% damage penalty vs players
+			"3"						"96 	; 	1.20" 	// +25% longer reload 25%
+			"4"						"1  	; 	.5"	 	// -50% clip size penalty
+			"5"						"469 	; 	100" 	// 100 metal to pick up buildings at range
+			"6"						"710 	; 	1" 		// beggars style
+		}
+		"998" // Vaccinator
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"503 	; 	.25"	// +25% bullet passive bonus
+			"2"						"504 	; 	.25"	// +25% explosive passive bonus
+			"3"						"505 	; 	.25"	// +25% bullet passive bonus
+			"4"						"506	;	.8" 	// 100% bullet resist active
+			"5"						"507	;	.8"		// 100% blast resist active
+			"6"						"508	;	.8"		// 100% fire resist active
+			"7"						"14 	; 	0" 		// no overheal decay
+			"8"						"479 	; 	.5" 	// -50% reduction in overheal rate penalty
+		}
+		"1000" // Festive Axtinguisher
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"209	;	1"		// minicrit vs burning
+			"2"						"77 	; 	.5" 	// -50% primary max ammo
+		}
+		"1003" // Festive Ubersaw
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"17 	;	-.1" 	// -10 ubercharge on hit
+			"2"						"2 		; 	1.4" 	// +40% damage bonus
+		}
+		"1004" // Festive Frontier Justice
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"6 		; 	.66" 	// +33% fire rate bonus
+			"2"						"96 	; 	1.66"	// +66% longer reload
+			"3"						"3 		;	.33" 	// -66% clip size penalty
+			"4"						"136	;	1"		// mod sentry killed revenge
+		}
+		"1006" // Festive Ambassador
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"51 	; 	1"		// revolver use hit locations
+			"2"						"3 		; 	.16" 	// -84% clip size penalty
+			"3"						"2 		; 	1.1" 	// 10% damage bonus
+			"4"						"96 	; 	1.5" 	// +50% reload time increase
+			"5"						"868 	; 	1" 		// crit dmg falloff
+		}
+		"1078" // Festive Force-a-Nature
+		{
+			"preserve-attributes" 	"0"
+			"quality"				"10"
+			"1"						"44 	; 	0" 		// scattergun knockback disabled
+			"2"						"6 		; 	.75" 	// +25% fire rate bonus
+			"3"						"45 	; 	1.6" 	// +60% bullets per shot
+			"4"						"1  	; 	.90" 	// -10% damage penalty
+			"5"						"4  	; 	.33" 	// -66% clip size penalty
+			"6"						"43 	; 	1" 		// scattergun no reload single
+			"7"						"36 	; 	4" 		// -300% accuracy
+			"8"						"96 	; 	1.2" 	// +20% reload time increase
+		}
+		"1079" // Festive Crusader's Crossbow
+		{ 
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"4 		; 	4" 		// +300% clip size bonus
+			"2"						"318 	; 	.33" 	// +25% reload rate bonus
+			"3"						"1 		; 	.35" 	// -65% damage penalty (heals, too)
+			"4"						"474 	; 	1" 		// heal friendly buildings (+4 health on hit)
+			"5"						"42 	; 	1" 		// sniper no headshots
+		}
+		"1082" // Festive Eyelander
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"219 	;	1" 		// decap type (collects heads)
+			"2"						"781 	; 	1" 		// is a sword
+			"3"						"54 	; 	.88" 	// -12% move speed penalty
+			"4"						"263 	; 	1.5" 	// +50% bounds multiplier (wider)
+		}
+		"1084" // Festive Gloves of Running Urgently
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"442 	; 	1.35" 	// +35% faster move speed bonus 
+			"2"						"128 	; 	1" 		// provide attributes on active on active
+			"3"						"852 	; 	1.5" 	// +50% damage vuln penalty
+			"4"						"772 	; 	2.25" 	// +125% holster penalty
+		}
+		"1085" // Festive Black Box
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"104 	; 	.4" 	// -60% projectile speed penalty
+			"2"						"99 	; 	1.10" 	// +15% bigger splash radius bonus
+		}
+		"1098" // Classic
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"869    ; 	1" 		// crits become minicrits
+			"2"						"636 	; 	1" 		// can headshot without scoping
+			"3"						"2030 	; 	1" 		// crit on hard hit
+			"4"						"647 	; 	1" 		// fires tracer hidden
+			"5"						"144 	; 	3" 		// lunchbox adds minicrits
+		}
+		"1099" // Tide Turner
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"639 	; 	50" 	// full charge control
+			"2"						"125 	; 	-95"	// -95 max HP penalty
+			"3"						"202 	; 	35" 	// +35 second charge duration bonus
+			"4"						"77 	; 	.01"	// -99% maxammo primary reduced
+			"5"						"79 	; 	.01"	// -99% maxammo secondary reduced
+			"6"						"1030	;	 1" 	// attack doesn't cancel charge
+			"7"						"249	;	1.5"	// faster recharge rate
+			"8"						"400	;	1"		// cannot pickup intel
+		}
+		"1101" // B.A.S.E. Jumper
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"610 	; 	2" 		// +100% air strafing control
+		}
+		"1104" // Air Strike
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"621 	; 	.35" 	// +65% rocket jump attack rate bonus
+			"2"						"58 	; 	1.33" 	// +33% self damage push force
+			"3"						"644	;	4"		// clipsize increase on kill
+			"4"						"100	;	.5"		// -50% blast radius decrease penalty
+			"5"						"103	;	1.8"	// +80% projectile speed increased
+			"6"						"3		;	.50"	// -25% clip size penalty
+			"7"						"207	;	1.75"	// +60% self damage from explosive jumping
+		}
+		"1103" // Back Scatter
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"112 	; 	2" 		// +2 shots per 5 seconds
+			"2"						"77		;	.2"		// 80% less ammo
+			"3"						"619	;	1"		// closerange backattack minicrits
+		}
+		"1144" // Festive Chargin' Targe
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"676 	;	 1" 	// lose charge on damage
+			"2"						"54 	; 	.8" 	// -20% move speed penalty
+			"3"						"64 	; 	.5" 	// +50% damage resistance to blast
+			"4"						"66 	; 	.5" 	// +50% damage resistance to bullets
+			"5"						"60 	; 	.5" 	// +50% damage resistance to fire
+		}
+		"1146" // Festive Backburner
+		{
+			"preserve-attributes"	"1"	
+			"quality"				"10"				// must preserve. bugged otherwise.
+			"1"						"838 	; 	1" 		// flame particles bounce off surfaces
+			"2"						"837 	; 	1.5" 	// +50% reflected flame length bonus
+			"3"						"256 	; 	2" 		// +100% airblast refire time penalty
+			"4"						"24 	; 	1" 		// mod flamethrower back crit
+			"5"						"170 	; 	1" 		// airblast cost
+			"6"						"859 	;	2"		// reflect count
+			"7"						"832 	; 	1" 		// airblast gives speed boost to teammates
+		}
+		"1150" // Quickiebomb Launcher
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"126 	; 	-.2"	// -.2 seconds sticky arm time bonus
+			"2"						"670 	; 	.15"	// +85% faster charge rate bonus
+			"3"						"394 	; 	.3" 	// +70% fire rate bonus
+			"4"						"710	; 	1"  	// auto fires full clip
+			"5"						"89 	; 	-7" 	// -7 max pipebombs out
+			"6"						"727 	; 	1.20" 	// +20% increase in stickybomb damage as it charges
+			"7"						"102	;	.5"		// speed penalty
+			"8"						"6		;	.25"	// fire rate bonus
+			"9"						"3		;	.5"		// clip size penalty
+		}
+		"1151" // Iron Bomber
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"394 	; 	.3" 	// +70% fire rate bonus
+			"2"						"413 	; 	1" 		// auto fire full clip
+			"3"						"241 	; 	1.3" 	// +30% longer reload time penalty
+			"4"						"424 	; 	.75" 	// -25% clip size penalty
+			"5"						"411 	; 	3" 		// 200% spread angle penalty
+			"6"						"710 	; 	1" 		// auto fires full clip
+			"7"						"411 	; 	3" 		// +5 degrees projectile deviation
+		}
+		"1153" // Panic Attack
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"736	; 	3" 		// +3s of speed boost on kill
+			"2"						"96 	; 	1.75" 	// +75% longer reload penalty
+			"3"						"651 	; 	.40" 	// up to +60% faster fire rate with reduced health
+			"4"						"3 		; 	.5" 	// -50% clip size penalty
+			"5"						"240	; 	.75" 	// +25% faster reloading while being healed
+			"6"						"772 	; 	1.5" 	// +50% longer holster penalty
+		}
+		"1179" // Thermal Thruster
+		{
+			"preserve-attributes"	"1"
+			"quality"				"10"
+			"1"						"872	; 	1"		// can thrust again while in flight
+			"2"						"870 	; 	1"		// high range impact cause pushback
+ 		}
+		"30665" // Shooting Starr
+		{
+			"preserve-attributes"	"0"
+			"quality"				"10"
+			"1"						"215 	; 	-800" 	// apply -800 z velocity on damage
+			"2"						"306 	; 	1" 		// can't headshot without full charge
+			"3"						"305 	; 	1" 		// sniper fires tracer
+		}
+	}
+}
