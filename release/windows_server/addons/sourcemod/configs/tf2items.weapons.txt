@@ -779,6 +779,14 @@
             "3"                     "337    ;   10"     // subtract 10 medigun charge on victim on hit
             "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
+        "457" // Postal Pummeler
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "209    ;   1"      // minicrit vs burning
+            "2"                     "77     ;   .5"     // -50% primary max ammo
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
         "460" // Enforcer
         {
             "preserve-attributes"   "0"

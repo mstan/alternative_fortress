@@ -1,6 +1,6 @@
 # Gamemaster's Alternative Fortress
 Status: Alpha  
-Version: v0.0.1  
+Version: v0.1.2  
 Author: [Gamemaster](https://steamcommunity.com/id/gamemaster1379)  
 Discord: https://discord.gg/NmKHXPy  
 
