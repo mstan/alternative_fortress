@@ -67,6 +67,7 @@
             "1"                     "17     ;   .02"    // +3% ubercharge on hit
             "2"                     "3      ;   .5"     // -25% clip size penalty
             "3"                     "484    ;   1"      // mad milk syringes
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "35" // Kritzkrieg
         {
@@ -75,12 +76,15 @@
             "1"                     "739    ;   .9"     // 10% slower build on overhealed patients
             "2"                     "18     ;   1"      // ubercharge is kritzkrieg
             "3"                     "10     ;   1.30"   // 30% faster build rate on patients
+            "4"                     "214    ;   2"      // kill eater | count assists
+            "5"                     "293    ;   1"      // kill eater 2 | count ubercharge
         }
         "37" // Ubersaw
         {
             "preserve-attributes"   "0"
             "1"                     "17     ;   -.1"    // -10 ubercharge on hit
             "2"                     "2      ;   1.4"    // +40% damage bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "38" // Axtinguisher
         {
@@ -88,6 +92,7 @@
             "quality"               "10"
             "1"                     "209    ;   1"      // minicrit vs burning
             "2"                     "77     ;   .5"     // -50% primary max ammo
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "40" // Backburner
         {
@@ -100,6 +105,7 @@
             "5"                     "170    ;   1"      // airblast cost
             "6"                     "859    ;   2"      // reflect count
             "7"                     "832    ;   1"      // airblast gives speed boost to teammates
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "41" // Natascha
         {
@@ -107,6 +113,7 @@
             "quality"               "10"
             "1"                     "215    ;   -75"    // apply -75 z velocity on damage
             "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "43" // KGB
         {
@@ -114,6 +121,7 @@
             "quality"               "10"
             "1"                     "215    ;   250"    // apply 250 positive z velocity
             "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "44" // Sandman
         {
@@ -123,6 +131,7 @@
             "2"                     "279    ;   2"      // +100% increase in grenades (baseballs, baubles) on wearer
             "3"                     "177    ;   1.33"   // +33% longer deploy
             "4"                     "326    ;   1.4"    // 50% more jump height on active
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "45" // Force-a-Nature
         {
@@ -136,6 +145,7 @@
             "6"                     "43     ;   1"      // scattergun no reload single
             "7"                     "36     ;   2.5"    // -150% accuracy
             "8"                     "96     ;   1.1"    // +10% reload time increase
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "57" // Razorback
         {
@@ -143,6 +153,7 @@
             "quality"               "10"
             "1"                     "57     ;   -2"     // -1 HP/tick on wearer
             "2"                     "52     ;   1"      // backstab shield
+            "3"                     "214    ;   5"      // kill eater | count backstabs
         }
         "61" // Ambassador
         {
@@ -153,6 +164,7 @@
             "3"                     "2      ;   1.14"   // 10% damage bonus
             "4"                     "96     ;   1.5"    // +50% reload time increase
             "5"                     "868    ;   1"      // crit dmg falloff
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "127" // Direct Hit
         {
@@ -165,6 +177,7 @@
             "5"                     "207    ;   1.25"   // +25% self damage from explosive jumping
             "6"                     "868    1   1"      // crits have falloff
             "7"                     "114    ;   0"      // not minicrit airborne
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "128" // The Equalizer
         {
@@ -172,6 +185,7 @@
             "quality"               "10"
             "1"                     "125    ;   -25"    // -50 HP max health penalty
             "2"                     "800    ;   1.5"    // +50% patient max overheal bonus 
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "130" // Scottish Resistance
         {
@@ -181,6 +195,7 @@
             "2"                     "241    ;   1.2"    // +20% longer reloading
             "3"                     "128    ;   1"      // provide attributes on active on active
             "4"                     "854    ;   0"      // -100% healing while medic heals you
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "131" // Chargin' Targe
         {
@@ -191,6 +206,7 @@
             "3"                     "64     ;   .5"     // +50% damage resistance to blast
             "4"                     "66     ;   .5"     // +50% damage resistance to bullets
             "5"                     "60     ;   .5"     // +50% damage resistance to fire
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "132" // Eyelander
         {
@@ -200,6 +216,7 @@
             "2"                     "781    ;   1"      // is a sword
             "3"                     "54     ;   .88"    // -12% move speed penalty
             "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "133" // The Gunboats
         {
@@ -215,6 +232,7 @@
             "2"                     "96     ;   1.66"   // +66% longer reload
             "3"                     "3      ;   .33"    // -66% clip size penalty
             "4"                     "136    ;   1"      // mod sentry killed revenge
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "142" // Gunslinger
         {
@@ -228,6 +246,8 @@
             "6"                     "321    ;   .5"     // +50% build rate bonus
             "7"                     "2043   ;   0"      // -100% upgrade rate to buildings (no upgrading)
             "8"                     "68     ;   1"      // +1 capture rate on wearer
+            "9"                     "214    ;   3"      // kill eater | count strange sentry 
+            "5"                     "293    ;   0"      // kill eater 2
         }
         "153" // Homewrecker
         {
@@ -237,6 +257,7 @@
             "2"                     "226    ;   1"      // honorbound - sheathing without killing costs 50 HP
             "3"                     "137    ;   2.5"    // +150% damage vs buildings
             "4"                     "224    ;   .5"     // -50% damage penalty while half dead
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "154" // Pain Train
         {
@@ -245,6 +266,7 @@
             "1"                     "239    ;   1.05"   // 20% extra charge rate for healer
             "2"                     "69     ;   .75"    // 25% less healing from healers
             "3"                     "800    ;   .5"     // -50% overhealing on patient
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "155" // Southern Hospitality
         {
@@ -254,6 +276,8 @@
             "2"                     "113    ;   30"     // +30 metal every 5 seconds on wearer
             "3"                     "148    ;   .77"    // -23% building cost bonus
             "4"                     "94     ;   1.5"    // +50% increased repair rate
+            "5"                     "214    ;   0"      // kill eater
+            "6"                     "293    ;   1"      // kill eater 2
         }
         "171" // Tribalman's Shiv
         {
@@ -262,6 +286,7 @@
             "1"                     "1      ;   .8"     // -20% damage penalty
             "2"                     "340    ;   1"      // reveal disguised spies on hit
             "3"                     "339    ;   1"      // reveal cloaked spies on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "172" // Skullcutter
         {
@@ -271,6 +296,7 @@
             "2"                     "774    ;   -60"    // -60s charge duration (no charging)
             "3"                     "31     ;   3"      // 5s of critboost on kill
             "4"                     "772    ;   2.5"    // +150% holster time penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "173" // Vita-Saw
         {
@@ -279,6 +305,7 @@
             "1"                     "26     ;   15"     // +15 HP bonus
             "2"                     "54     ;   .90"    // -10% move speed penalty
             "3"                     "123    ;   1.10"   // +10% move speed bonus while active
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "214" // Powerjack
         {
@@ -286,6 +313,7 @@
             "quality"               "10"
             "1"                     "26     ;   25"     // +25 HP on wearer
             "2"                     "734    ;   .50"    // 50% reduced healing from all sources
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "215" // Degreaser
         {
@@ -299,6 +327,7 @@
             "6"                     "827    ;   1"      // airblast extinguish teammate disabled
             "7"                     "257    ;   -1.5"   // airblast velocity is 150% downward
             "8"                     "177    ;   1"      // deploy time increased to standard
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "220" // Shortstop
         {
@@ -308,6 +337,7 @@
             "2"                     "318    ;   .8"     // +20% faster reload rate
             "3"                     "6      ;   .8"     // +20% fire rate bonus
             "4"                     "3      ;   .75"    // -25% clip size penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "221" // Mackerel
         {
@@ -315,14 +345,16 @@
             "quality"               "10"
             "1"                     "438    ;   1"      // crit vs wet players
             "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
-        "224" // l'etranger
+        "224" // L'etranger
         {
             "preserve-attributes"   "0"
             "quality"               "10"
             "1"                     "360    ;   1"      // damage all connected by medibeam
             "2"                     "336    ;   1"      // hide enemy health
             "3"                     "1      ;   .75"    // -25% damage penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "225" // Your Eternal Reward
         {
@@ -333,6 +365,7 @@
             "3"                     "736    ;   2"      // +2s speed boost on kill
             "4"                     "253    ;   .5"     // +.5s longer cloaking penalty
             "5"                     "221    ;   1.35"   // +35% decloaking duration penalty
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "228" // Black Box
         {
@@ -340,7 +373,8 @@
             "quality"               "10"
             "1"                     "104    ;   .4"     // -60% projectile speed penalty
             "2"                     "99     ;   1.10"   // +15% bigger splash radius bonus
-            //"3"                   "214    ;   1"      // strange weapon counts kills | TEST
+            "3"                     "214    ;   1"      // count strange kills 
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "230" // Sydney Sleeper
         {
@@ -351,6 +385,7 @@
             "3"                     "42     ;   1"      // rifle can't headshot penalty
             "4"                     "279    ;   2"      // +1 grenade maxammo (+1 Jarate)
             "5"                     "175    ;   5"      // 5s jarate duration on apply
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "231" // Darwin's Danger Shield
         {
@@ -367,6 +402,7 @@
             "quality"               "10"
             "1"                     "362    ;   1"      // always crit players from behind behind
             "2"                     "772    ;   2.5"    // +150% holster time increase penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "239" // Gloves of Running Urgently
         {
@@ -376,6 +412,7 @@
             "2"                     "128    ;   1"      // provide attributes on active on active
             "3"                     "852    ;   1.5"    // +50% damage vuln penalty
             "4"                     "772    ;   2.25"   // +125% holster penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "265" // Sticky Jumper
         {
@@ -391,12 +428,14 @@
             "2"                     "781    ;   1"      // is a sword
             "3"                     "54     ;   .88"    // -12% move speed penalty
             "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "304" // Amputator
         {
             "preserve-attributes"   "0"
             "quality"               "10"
             "1"                     "525    ;   1.5"        // 50% increase in push force
+            "2"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "305" // Crusader's Crossbow
         { 
@@ -407,6 +446,7 @@
             "3"                     "1      ;   .35"    // -65% damage penalty (heals, too)
             "4"                     "474    ;   1"      // heal friendly buildings (+4 health on hit)
             "5"                     "42     ;   1"      // sniper no headshots
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "307" // Caber
         {
@@ -416,6 +456,7 @@
             "2"                     "2      ;   3"      // +100% damage bonus
             "3"                     "772    ;   2"      // +100% holster rate penalty
             "4"                     "773    ;   2"      // +100% deploy rate penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "308" // Loch n Load
         {
@@ -426,6 +467,7 @@
             "3"                     "114    ;   1"      // minicrit targets knocked airbone by explosions
             "4"                     "100    ;   0.5"    // -50% blast radius penalty
             "5"                     "3      ;   .75"    // 25% clip size penalty
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "310" // Warrior's Spirit
         {
@@ -433,6 +475,7 @@
             "quality"               "10"
             "1"                     "125    ;   -125"   // -125 HP penalty
             "2"                     "57     ;   40"     // +40 health regen per second bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "312" // Brass Beast
         {
@@ -442,6 +485,7 @@
             "2"                     "233    ;   1.35"   // 35% damage bonus while medic heals you 
             "3"                     "1      ;   .65"    // damage penalty 35%
             "4"                     "323    ;   2"      // attack projectiles level 2
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "317" // Candy Cane
         {
@@ -450,6 +494,7 @@
             "1"                     "57     ;   5"      // +5 health regeneration per second
             "2"                     "128    ;   1"      // provide on active
             "3"                     "412    ;   1.4"    // +40% damage vulnerability on wearer
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "325" // Basher
         {
@@ -458,6 +503,7 @@
             "1"                     "5      ;   1.6"    // +60% fire rate penalty
             "2"                     "339    ;   1"      // reveal cloaked spies on hit
             "3"                     "337    ;   10"     // subtract 10 medigun charge on victim on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "326" // Back Scratcher
         {
@@ -465,6 +511,7 @@
             "quality"               "10"
             "1"                     "149    ;   5"      // add 5 seconds of bleed on hit
             "2"                     "204    ;   1"      // hit self on miss
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "327" // Claidheamh Mor
         {
@@ -474,6 +521,7 @@
             "2"                     "781    ;   1"      // is a sword
             "3"                     "125    ;   -25"    // -25 HP max health additive penalty
             "4"                     "263    ;   1.35"   // +35% melee range multiplier bonus
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "329" // The Jag
         {
@@ -484,6 +532,7 @@
             "3"                     "80     ;   1.5"    // +50% more base metal (300 base metal)
             "4"                     "343    ;   1.5"    // -5% slower sentry firing rate penalty
             "5"                     "286    ;   .8"     // -20% less building health penalty
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "331" // Fists of Steel
         {
@@ -498,6 +547,7 @@
             "7"                     "855    ;   3"      // -5 maxhealth/s while active
             "8"                     "236    ;   1"      // block healing while in use
             "9"                     "534    ;   .01"    // airblast vulnerability multiplier
+            "10"                     "214    ;   1"      // kill eater | count strange kills 
         } 
         "348" // Sharpened Volcano Fragment
         {
@@ -505,6 +555,7 @@
             "quality"               "10"
             "1"                     "2067   ;   1"      // attacks vs burning minicrits and extinguishes enemy. speed boost on kill.
             "2"                     "1      ;   .9"     // -10% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "349" // Sun on a stick
         { 
@@ -512,6 +563,7 @@
             "quality"               "10"
             "1"                     "107    ;   1.15"   // +15% move speed bonus
             "2"                     "61     ;   1.5"    // +50% vulnerability from fire
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "355" // Fan O War
         {
@@ -520,6 +572,7 @@
             "1"                     "522    ;   1"      // damage applies airblast knockback
             "2"                     "1      ;   .1"     // -90% damage penalty
             "3"                     "5      ;   1.6"    // -60% fire rate penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "356" // Kunai
         {
@@ -527,6 +580,7 @@
             "quality"               "10"
             "1"                     "217    ;   1"      // sanguisuge
             "2"                     "855    ;   50"     // max health drains while active
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "357" // Zatoichi
         {
@@ -536,6 +590,7 @@
             "2"                     "225    ;   .5"     // -50% damage penalty while half alive
             "3"                     "180    ;   100"    // +100 HP on kill
             "4"                     "781    ;   1"      // is a sword
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "401" // Shahanshah
         {
@@ -543,6 +598,7 @@
             "quality"               "10"
             "1"                     "146    ;   1"      // weapon can damage sappers
             "2"                     "5      ;   1.25"   // -25% fire rate penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "402" // Bazaar Bargain 
         {
@@ -550,6 +606,7 @@
             "quality"               "10"
             "1"                     "5      ;   2"      // +100% fire rate penalty
             "2"                     "41     ;   1.75"   // +25% faster charge rate on sniper rifle (-50% from base rifle)
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "404" // Persian Persuader
         {
@@ -558,6 +615,7 @@
             "1"                     "6      ;   .66"    // +33% swing speed bonus
             "2"                     "778    ;   .15"    // +15% of meter recharged on hit
             "3"                     "1      ;   .5"     // +50% damage penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         } 
         "405" // Ali Baba's Wee Booties
         {
@@ -574,6 +632,7 @@
             "3"                     "248    ;   1.5"    // +50% increase in impact damage bonus
             "4"                     "249    ;   1.35"   // +35% faster recharge rate bonus
             "5"                     "782    ;   1"      // ammo pickups give charge
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "411" // Quick Fix
         {
@@ -585,6 +644,8 @@
             "4"                     "314    ;   4"      // +4s ubercharge duration bonus
             "5"                     "11     ;   1.25"   // +25% more max overhealing bonus
             "6"                     "9      ;   .95"    // -5% ubercharge rate penalty
+            "7"                     "214    ;   1"      // kill eater | count ubers 
+            "8"                     "293    ;   2"      // kill eater 2
         }
         "412" // Overdose
         {
@@ -594,6 +655,7 @@
             "2"                     "414    ;   1"      // provide on active
             "3"                     "182    ;   1"      // slow enemy on hit for 1 second
             "4"                     "5      ;   1.75"   // -75% fire rate penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "413" // Solemn Vow
         {
@@ -601,6 +663,7 @@
             "quality"               "10"
             "1"                     "57     ;   3"      // +3 health regenerated per second bonus
             "2"                     "125    ;   -10"    // -10 max HP penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "414" // The Liberty Launcher
         {
@@ -613,6 +676,7 @@
             "5"                     "6      ;   .75"    // +25% fire rate bonus
             "6"                     "199    ;   .75"    // +25% holster speed bonus
             "7"                     "207    ;   .75"    // +25% less blast damage to self bonus
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "415" // Reserve Shooter
         {
@@ -620,6 +684,7 @@
             "quality"               "10"
             "1"                     "45     ;   .6"     // -40% bullets per shot penalty
             "2"                     "216    ;   400"    // look velocity on hit
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "416" // Market Gardener
         {
@@ -628,6 +693,7 @@
             "1"                     "267    ;   1"      // crit while airborne by explosive jumping
             "2"                     "206    ;   1.75"   // 150% melee damage vulnerability while active
             "3"                     "275    ;   1"      // cancel falling damage
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "425" // Family business
         {
@@ -635,6 +701,7 @@
             "quality"               "10"
             "1"                     "4      ;   1.5"    // +50% clip size bonus
             "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "424" // Tomislav
         {
@@ -643,6 +710,7 @@
             "1"                     "75     ;   1.5"    // +50% faster move speed while spun up bonus
             "2"                     "5      ;   1.5"    // -50% fire rate penalty
             "3"                     "238    ;   1"      // no spin up sounds
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "426" // Eviction Notice
         {
@@ -651,6 +719,7 @@
             "1"                     "199    ;   .6"     // +40% faster holster bonus
             "2"                     "1      ;   .5"     // -50% damage penalty
             "3"                     "149    ;   5"      // add 5 seconds of bleed on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "442" // Righteous Bison
         {
@@ -658,6 +727,7 @@
             "quality"               "10"
             "1"                     "360    ;   1"      // damage all connected by medibeam
             "2"                     "1      ;   .75"    // 25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "447" // Disciplinary Action
         {
@@ -665,6 +735,8 @@
             "quality"               "10"
             "1"                     "1      ;   1"      // no damage penalty
             "2"                     "855    ;   2"      // -5 maxhealth/s while active
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+			"4"                     "293    ;   66"      // kill eater 2
         }
         "448" // Soda Popper
         {
@@ -678,6 +750,7 @@
             "6"                     "868    ;   1"      // crits affected by falloff
             "7"                     "288    ;   1"      // cannot be crit boosted
             "8"                     "1      ;   .65"    // minicrits become crits
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "449" // Winger
         {
@@ -687,6 +760,7 @@
             "2"                     "298    ;   2"      // +1 bullets consumed per shot penalty
             "3"                     "36     ;   3"      // +200% bullet spread penalty
             "4"                     "1      ;   .66"    // -33% damage penalty
+            ""                     "214    ;   1"      // kill eater | count strange kills 
         }
         "450" // Atomizer
         {
@@ -694,6 +768,7 @@
             "quality"               "10"
             "1"                     "613    ;    5"     // 5 seconds of minicrit boost on kill
             "2"                     "1      ;    .5"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "452" // Three-Rune Blade
         {
@@ -702,6 +777,7 @@
             "1"                     "5      ;   1.6"    // +60% fire rate penalty
             "2"                     "339    ;   1"      // reveal cloaked spies on hit
             "3"                     "337    ;   10"     // subtract 10 medigun charge on victim on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "460" // Enforcer
         {
@@ -709,6 +785,7 @@
             "quality"               "10"
             "1"                     "125    ;   -25"    // -25 max health additive penalty
             "2"                     "2      ;   1.2"    // +20% damage bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "461" // Big Earner
         {
@@ -716,6 +793,7 @@
             "quality"               "10"
             "1"                     "253    ;   -.7"    // -.7 seconds cloaking time bonus
             "2"                     "82     ;   2.10"   // +225% faster cloak consumption penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "482" // Nessie's Nine Iron
         {
@@ -725,6 +803,7 @@
             "2"                     "781    ;   1"      // is a sword
             "3"                     "54     ;   .88"    // -12% move speed penalty
             "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "513" // The Original
         {
@@ -733,6 +812,7 @@
             "1"                     "58     ;   .5"     // -50% rocket jump propulsion
             "2"                     "4      ;   1.5"    // +50% clip size bonus
             "3"                     "289    ;   1"      // centerfire projectile
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "525" // Diamondback
         {
@@ -744,6 +824,7 @@
             "4"                     "45     ;   2"      // +1 bullet per shot bonus
             "5"                     "36     ;   3"      // +200% spread penalty
             "6"                     "1      ;   .75"    // -25% damage penalty
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "526" // Machina
         {
@@ -752,6 +833,7 @@
             "1"                     "305    ;   1"      // sniper fires tracer
             "2"                     "41     ;   1.5"    // 50% faster charge rate on sniper rifle
             "3"                     "378    ;   .6"     // -40% move speed penalty while scoped
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "527" // Widowmaker
         {
@@ -760,6 +842,7 @@
             "1"                     "298    ;   45"     // -45 metal per shot penalty
             "2"                     "45     ;   1.25"   // +25% bullet sper shot bonus
             "3"                     "36     ;   1.1"    // +10% spread penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "588" // Pomson 6000
         {
@@ -769,6 +852,7 @@
             "2"                     "285    ;   1"      // energy weapon no deflect
             "3"                     "284    ;   1"      // energy weapon no hurt buildings
             "4"                     "283    ;   1"      // penetrates
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "589" // Eureka Effect
         {
@@ -780,6 +864,7 @@
             "4"                     "343    ;   .9"     // +10% increase sentry fire rate bonus
             "5"                     "344    ;   1.10"   // +10% increase sentry coverage radius bonus
             "6"                     "286    ;   1.2"    // +20% increase in building health
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "593" // Third Degree
         {
@@ -788,12 +873,7 @@
             "1"                     "362    ;   1"      // always crit from behind
             "2"                     "2      ;   1.25"   // +25% damage bonus
             "3"                     "363    ;   1"      // critical hits do no damage
-        }
-        "594" // Phlogistinator
-        {
-            "preserve-attributes"   "0"
-            "quality"               "10"
-            "1"                     "356    ;   0"      // airblast enabled
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "608" // Bootlegger
         {
@@ -809,7 +889,6 @@
             "quality"               "10"
             "1"                     "26     ;   25"     // max health additive bonus
             "2"                     "341    ;   10"     // jarate backstabber
-
         }
         "648" // Wrap Asassin
         {
@@ -817,6 +896,7 @@
             "quality"               "10"
             "1"                     "869    ;   1"      // crits become minicrits
             "2"                     "346    ;   1"      // bat launches ornaments
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "649" // Spy-cicle
         {
@@ -830,6 +910,7 @@
             "6"                     "61     ;   1.2"    // 10% fire vuln to fire
             "7"                     "534    ;   1.75"   // airblast vuln
             "8"                     "54     ;   .93"    // 7% less move speed
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "656" // Holiday punch
         {
@@ -842,6 +923,7 @@
             "5"                     "182    ;   .75"    // slow for .75s
             "6"                     "326    ;   -1"     // no jumping
             "7"                     "31     ;   8"      // 8s of critboost on kill
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "730" // Beggar's Bazooka
         {
@@ -859,6 +941,7 @@
             "10"                    "522    ;   1"      // damage causes airblast
             "11"                    "413    ;   1"      // auto fire full clip
             "12"                    "417    ;   1"      // can overload
+            "13"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "739" // Lollichip
         {
@@ -867,6 +950,7 @@
             "1"                     "358    ;   1"      // critical hits forces victim to laugh
             "2"                     "363    ;   1"      // critical hits do no damage
             "3"                     "362    1   1"      // always crit from behind
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "751" // Cleaner's Carbine
         {
@@ -876,6 +960,7 @@
             "2"                     "215    ;   100"    // apply 100 z velocity on hit
             "3"                     "3      ;   .8"     // -20% clip size penalty
             "4"                     "5      ;   1.25"   // -25% fire rate penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "752" // Heatmaker
         {
@@ -884,6 +969,7 @@
             "1"                     "180    ;   75"     // +75 HP on kill
             "2"                     "77     ;   .5"     // -60% ammo penalty
             "3"                     "156    ;    1"     // silent killer
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "772" // Baby Face Blaster
         {
@@ -895,6 +981,7 @@
             "4"                     "54     ;   .85"    // -15% move speed penalty
             "5"                     "535    ;   1.5"    // +50% knockback from damage penalty
             "6"                     "534    ;   1.5"    // +50% airblast vulnerability penalty
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "773" // Pretty Boy's Pocket Pistol
         {
@@ -902,6 +989,7 @@
             "quality"               "10"
             "1"                     "179    ;   1"      // minicrits become crits
             "2"                     "3      ;   .5"     // -50% clip size penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "775" // The Escape Plan
         {
@@ -909,6 +997,7 @@
             "quality"               "10"
             "1"                     "69     ;   .25"    // -75% health from healers penalty
             "2"                     "108    ;   1.75"   // +75% health from packs bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "810" // Red Tape Recorder
         {
@@ -916,6 +1005,7 @@
             "quality"               "10"
             "1"                     "426    ;   0"      // -100% damage to buildings penalty
             "2"                     "428    ;   2"      // +100% sappear health bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "811" // Huo Long Heater
         {
@@ -932,6 +1022,7 @@
             "9"                     "179    ;   1"      // minicrits become crits
             "10"                    "411    ;   5"      // +5 degrees projectile deviation
             "11"                    "77     ;   .75"    // -25% clip size penalty
+            "12"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "813" // Neon
         {
@@ -940,6 +1031,7 @@
             "1"                     "182    ;   2"      // +2s of slow on hit
             "2"                     "522    ;   1"      // damage causes airblast
             "3"                     "54     ;   .8"     // -20% damage penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "997" // Rescue Ranger
         {
@@ -951,6 +1043,7 @@
             "4"                     "1      ;   .5"     // -50% clip size penalty
             "5"                     "469    ;   100"    // 100 metal to pick up buildings at range
             "6"                     "710    ;   1"      // beggars style
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "998" // Vaccinator
         {
@@ -964,6 +1057,8 @@
             "6"                     "508    ;   .8"     // 100% fire resist active
             "7"                     "14     ;   0"      // no overheal decay
             "8"                     "479    ;   .5"     // -50% reduction in overheal rate penalty
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
+			"10"                    "293    ;   2"      // kill eater 2
         }
         "1000" // Festive Axtinguisher
         {
@@ -971,6 +1066,7 @@
             "quality"               "10"
             "1"                     "209    ;   1"      // minicrit vs burning
             "2"                     "77     ;   .5"     // -50% primary max ammo
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1003" // Festive Ubersaw
         {
@@ -978,6 +1074,7 @@
             "quality"               "10"
             "1"                     "17     ;   -.1"    // -10 ubercharge on hit
             "2"                     "2      ;   1.4"    // +40% damage bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1004" // Festive Frontier Justice
         {
@@ -987,6 +1084,7 @@
             "2"                     "96     ;   1.66"   // +66% longer reload
             "3"                     "3      ;   .33"    // -66% clip size penalty
             "4"                     "136    ;   1"      // mod sentry killed revenge
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1006" // Festive Ambassador
         {
@@ -997,6 +1095,7 @@
             "3"                     "2      ;   1.1"    // 10% damage bonus
             "4"                     "96     ;   1.5"    // +50% reload time increase
             "5"                     "868    ;   1"      // crit dmg falloff
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1078" // Festive Force-a-Nature
         {
@@ -1010,6 +1109,7 @@
             "6"                     "43     ;   1"      // scattergun no reload single
             "7"                     "36     ;   4"      // -300% accuracy
             "8"                     "96     ;   1.2"    // +20% reload time increase
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1079" // Festive Crusader's Crossbow
         { 
@@ -1020,6 +1120,7 @@
             "3"                     "1      ;   .35"    // -65% damage penalty (heals, too)
             "4"                     "474    ;   1"      // heal friendly buildings (+4 health on hit)
             "5"                     "42     ;   1"      // sniper no headshots
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1082" // Festive Eyelander
         {
@@ -1029,6 +1130,7 @@
             "2"                     "781    ;   1"      // is a sword
             "3"                     "54     ;   .88"    // -12% move speed penalty
             "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1084" // Festive Gloves of Running Urgently
         {
@@ -1038,6 +1140,7 @@
             "2"                     "128    ;   1"      // provide attributes on active on active
             "3"                     "852    ;   1.5"    // +50% damage vuln penalty
             "4"                     "772    ;   2.25"   // +125% holster penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1085" // Festive Black Box
         {
@@ -1045,6 +1148,7 @@
             "quality"               "10"
             "1"                     "104    ;   .4"     // -60% projectile speed penalty
             "2"                     "99     ;   1.10"   // +15% bigger splash radius bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1098" // Classic
         {
@@ -1055,6 +1159,7 @@
             "3"                     "2030   ;   1"      // crit on hard hit
             "4"                     "647    ;   1"      // fires tracer hidden
             "5"                     "144    ;   3"      // lunchbox adds minicrits
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1099" // Tide Turner
         {
@@ -1068,6 +1173,7 @@
             "6"                     "1030   ;    1"     // attack doesn't cancel charge
             "7"                     "249    ;   1.5"    // faster recharge rate
             "8"                     "400    ;   1"      // cannot pickup intel
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1101" // B.A.S.E. Jumper
         {
@@ -1086,6 +1192,7 @@
             "5"                     "103    ;   1.8"    // +80% projectile speed increased
             "6"                     "3      ;   .50"    // -25% clip size penalty
             "7"                     "207    ;   1.75"   // +60% self damage from explosive jumping
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1103" // Back Scatter
         {
@@ -1094,6 +1201,7 @@
             "1"                     "112    ;   2"      // +2 shots per 5 seconds
             "2"                     "77     ;   .2"     // 80% less ammo
             "3"                     "619    ;   1"      // closerange backattack minicrits
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1144" // Festive Chargin' Targe
         {
@@ -1104,6 +1212,7 @@
             "3"                     "64     ;   .5"     // +50% damage resistance to blast
             "4"                     "66     ;   .5"     // +50% damage resistance to bullets
             "5"                     "60     ;   .5"     // +50% damage resistance to fire
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1146" // Festive Backburner
         {
@@ -1116,6 +1225,7 @@
             "5"                     "170    ;   1"      // airblast cost
             "6"                     "859    ;   2"      // reflect count
             "7"                     "832    ;   1"      // airblast gives speed boost to teammates
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1150" // Quickiebomb Launcher
         {
@@ -1130,6 +1240,7 @@
             "7"                     "102    ;   .5"     // speed penalty
             "8"                     "6      ;   .25"    // fire rate bonus
             "9"                     "3      ;   .5"     // clip size penalty
+            "10"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1151" // Iron Bomber
         {
@@ -1142,6 +1253,7 @@
             "5"                     "411    ;   3"      // 200% spread angle penalty
             "6"                     "710    ;   1"      // auto fires full clip
             "7"                     "411    ;   3"      // +5 degrees projectile deviation
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1153" // Panic Attack
         {
@@ -1153,6 +1265,7 @@
             "4"                     "3      ;   .5"     // -50% clip size penalty
             "5"                     "240    ;   .75"    // +25% faster reloading while being healed
             "6"                     "772    ;   1.5"    // +50% longer holster penalty
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "1179" // Thermal Thruster
         {
@@ -1168,6 +1281,7 @@
             "1"                     "215    ;   -800"   // apply -800 z velocity on damage
             "2"                     "306    ;   1"      // can't headshot without full charge
             "3"                     "305    ;   1"      // sniper fires tracer
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
     }
 }

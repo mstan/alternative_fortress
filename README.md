@@ -1,8 +1,8 @@
 # Gamemaster's Alternative Fortress
-Status: Alpha
-Version: v0.0.1
-Author: [Gamemaster](https://steamcommunity.com/id/gamemaster1379)
-Discord: https://discord.gg/NmKHXPy
+Status: Alpha  
+Version: v0.0.1  
+Author: [Gamemaster](https://steamcommunity.com/id/gamemaster1379)  
+Discord: https://discord.gg/NmKHXPy  
 
 This mod is currently in alpha. No weapons are final and concepts are subject to change at anytime.
 
