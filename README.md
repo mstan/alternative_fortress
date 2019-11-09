@@ -52,7 +52,7 @@ For community usage, all that needs to be done is have the plugin installed. Aft
 
 ### Usage - Competitive
 
-For competitive usage, this plugin recognizes [RGL](rgl.gg) as the standard for competitive formats.
+For competitive usage, this plugin recognizes [RGL](rgl.gg) as the standard for 6v6 and 9v9 KOTH and Stopwatch. [ETF2L](http://etf2l.org/rules/configs/) is recognized for CTF and 5CP.
 
 To usage in a competitive format, ensure the plugin is installed correctly.
 

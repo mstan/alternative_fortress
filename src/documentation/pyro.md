@@ -1,54 +1,6 @@
 __**Primary**__
 
 
-```fix
-Flamethrower
-```
-```
-Unchanged
-```
-
-
-```fix
-Backburner
-```
-```yaml
-+ Flamethrower crits targets from behind
-+ Flames bounce off surfaces
-+ Airblast gives speed boost to allies
-+ 50% flame life duration from reflected surfaces
-```
-```diff
-- +100% longer airblast refire interval
-```
-```
-More utility to airblast, but ammo conservation becomes important.
-```
-
-
-```fix
-Degreaser
-```
-```yaml
-+ +25% damage bonus
-```
-```diff
-- Cannot extinguish teammates
-- -50% airblast knockback 
-- +25% ammo consumed per second
-```
-```
-Turn reflected projectiles into small ammo boxes
-Airblast pulls enemies towards the ground
-```
-
-
-```fix
-Phlogistinator
-```
-```
-Unchanged
-```
 
 
 
@@ -123,11 +75,9 @@ Panic Attack
 ```
 
 ```diff
-- -50% clip size
+- -33% clip size
 - -50% holster speed
-- -150% reload rate
 ```
-
 
 ```fix
 Thermal Thruster
@@ -137,6 +87,13 @@ Thermal Thruster
 + High velocity impacts push back enemies
 ```
 
+
+```fix
+Gas Passer
+```
+```
+Unchanged
+```
 
 __**Melee**__
 
@@ -165,10 +122,11 @@ Lollichop
 Axtinguisher
 ```
 ```yaml
-Mini crits vs burning targets
+Crits vs burning targets
 ```
 ```diff
 - 50% primary ammo
+- 50% fire rate penalty
 ```
 
 
@@ -189,10 +147,11 @@ Homewrecker
 Powerjack
 ```
 ```yaml
-+ +25 HP on wearer
++ Piledrive airborne targets, causing them to crater
++ 20% deploy speed bonus
 ```
 ```diff
-- -50% healing from all sources
+- -66% damage penalty
 ```
 
 
@@ -214,10 +173,10 @@ Master of damage over time. Pyro can now add both bleed and fire.
 Sharpened Volcano Fragment
 ```
 ```yaml
-+ Minicrits and extinguishes burning targets. 
++ +25 HP on wearer
 ```
 ```diff
-- -10% damage penalty
+- -50% healing from all sources
 ```
 
 

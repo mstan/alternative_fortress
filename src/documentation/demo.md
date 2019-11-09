@@ -65,8 +65,7 @@ Iron Bomber
 ```
 ```diff
 - 25% clip size penalty
-- 30% reload penalty
-- 3 degrees of projectile deviation penalty
+- 2 degrees of projectile deviation penalty
 ```
 
 
@@ -195,6 +194,7 @@ Unchanged
 
 
 ```fix
+Eyelander
 ```
 ```yaml
 + Decapitations earn health and speed boost

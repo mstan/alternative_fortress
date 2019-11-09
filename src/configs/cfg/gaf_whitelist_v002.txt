@@ -25,6 +25,8 @@
 	"unlisted_items_default_to"		"1"
 
 	//------------- Blocked weapons/reskins (Total: 2) --------------\\
+	//_____________________________Scout_____________________________\\
+	"Mad Milk"							"0"
 	//____________________________ Heavy ____________________________\\
 	"Deflector"							"0"
 	//__________________________ Engineer ___________________________\\
@@ -59,7 +61,6 @@
 	//____________________________ Pyro _____________________________\\
 	"The Burning Bongos"						"0"
 	"The Infernal Orchestrina"					"0"
-	"The Lollichop"							"0"
 	"The Rainblower"						"0"
 
 	//------ Noise making/Explosion on death miscs (Total: 3) -------\\

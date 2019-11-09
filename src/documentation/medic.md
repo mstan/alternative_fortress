@@ -14,7 +14,6 @@ Blutsauger
 ```
 ```yaml
 + On hit : Add 3% ubercharge
-+ On hit : Apply mad milk to your enemy for a limited period of time.
 ```
 ```diff
 - -66% clip size
@@ -29,16 +28,9 @@ Crusader's Crossbow
 ```
 ```yaml
 + Fires a special healing bolt that can heal both allies and buildings
-+ 4 arrows total clip
-+ +66% reload rate
-```
-```diff
-- -65% damage penalty
 ```
 ```
-A rapid bolt firing crossbow that fires healing arrows. Firing multiple in rapid succession allows for more healing.
-
-In a pinch, use it on a minisentry to top it off in absence of its engineer.
+Healer of both ally buildings and machines.
 ```
 
 

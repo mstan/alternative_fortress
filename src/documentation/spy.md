@@ -114,7 +114,6 @@ Your Eternal Reward
 ```
 ```diff
 - +.5 second cloaking duration penalty
-- 35% longer decloaking duration penalty
 ```
 
 
@@ -145,13 +144,10 @@ Big Earner
 Spycicle
 ```
 ```yaml
-+ Afterburn immunity
-+ No burning while disguised
-+ +30% damage reduction bonus
++ +33% damage reduction bonus
 ```
 ```diff
 - Victims turn to ice
-- +20% vulnerability to fire penalty
 - +75% vulnerability to airblast knockback penalty
 - -7% move speed penalty
 ```

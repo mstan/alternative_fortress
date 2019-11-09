@@ -21,7 +21,7 @@ Direct Hit
 ```
 ```diff
 - -70% splash radius penalty
-- -50% clip size penalty
+- -25% clip size penalty
 ```
 
 
@@ -32,7 +32,7 @@ Black Box
 + +10% splash damage radius bonus
 ```
 ```diff
-- -60% projectile speed penalty
+- -33% projectile speed penalty
 ```
 ```
 A rocket launcher meant for spam. Slow projectiles make realtime fighting hard, but great for denying chokepoints.
@@ -123,14 +123,13 @@ A six chamber rocket launcher that can be used to bombard and disorient targets
 Air Strike
 ```
 ```yaml
-+ Up to +4 clip size from kills
++ Up to +2 clip size from kills
 + 65% fire rate bonus when rocket jumping
 + 50% self damage push force from rocket jumps
 + 80% increase in projectile speed
 ```
 ```diff
 - +75% more damage from explosive jumping penalty
-- -50% clip size penalty
 - -50% splash radius penalty
 ```
 
@@ -223,9 +222,8 @@ Panic Attack
 ```
 
 ```diff
-- -50% clip size
+- -33% clip size
 - -50% holster speed
-- -150% reload rate
 ```
 
 

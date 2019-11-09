@@ -79,9 +79,8 @@ Panic Attack
 ```
 
 ```diff
-- -50% clip size
+- -33% clip size
 - -50% holster speed
-- -150% reload rate
 ```
 
 __**Secondary**__
@@ -187,7 +186,7 @@ Eureka Effect
 ```diff
 - +50% increase in building cost penalty
 - +70% slower building construction rate penalty
-- +60% slower upgrade rate on buildings penalty
+- -40% upgrade rate on buildings penalty
 ```
 ```
 Buildings are costly and slow to setup, but are much more effective.
