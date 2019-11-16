@@ -30,6 +30,7 @@ Black Box
 ```
 ```yaml
 + +10% splash damage radius bonus
++ +10% damage bonus vs buildings
 ```
 ```diff
 - -33% projectile speed penalty
@@ -123,7 +124,7 @@ A six chamber rocket launcher that can be used to bombard and disorient targets
 Air Strike
 ```
 ```yaml
-+ Up to +2 clip size from kills
++ Up to +1 clip size from kills
 + 65% fire rate bonus when rocket jumping
 + 50% self damage push force from rocket jumps
 + 80% increase in projectile speed
@@ -131,6 +132,7 @@ Air Strike
 ```diff
 - +75% more damage from explosive jumping penalty
 - -50% splash radius penalty
+- -25% clip size penalty
 ```
 
 

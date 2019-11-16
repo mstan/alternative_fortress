@@ -1,3 +1,41 @@
+## v0.1.5
+
+### Changes
+
+#### Attributes
+
+Soldier:  
+  
+- Air Strike: Add 25% clip size penalty
+- Air Strike: Decrease rocket clip size bonus from up to +1 rocket from +2 rockets
+
+The airstrike was found to go from being undertuned to overtuned. In order to reduce its effectiveness, starting rockets have been reduced.
+
+ 
+- Black Box: Add 10% damage vs buildings
+
+The Black Box serves as a good denial of area weapon, but still feels too generally ineffective in versatility. It now is now more effective in nest busting by an increase in damage vs buildings
+
+Demo:  
+- Quickiebomb Launcher: Add auto-fire on full clip penalty
+
+The quickiebomb became a force to be reckoned with using the new faster fire interval. As such, the quickiebomb launcher auto fires on full loading now in order to take away from the level of control the demo has.
+
+
+Heavy:  
+- Huo Long Heater: Decrease projectile deviation by 33% (from 3 to 2)
+- Huo Long Heater: Decrease projectile speed penalty from 33% to 25%
+- Huo Long Heater: Decrease fire rate penalty from 75% to 40%  
+
+
+The Huo Long once again felt unfulfilling compared to its counterparts. This weapon has had some boons to its behavior to compensate once more.
+
+
+#### Bugfixes
+
+- Correct Crusader Crossbow attributes to be reverted to single-bolt clip
+
+
 ## v0.1.4
 
 ### Changes

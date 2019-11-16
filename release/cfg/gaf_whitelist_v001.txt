@@ -59,7 +59,7 @@
 	//____________________________ Pyro _____________________________\\
 	"The Burning Bongos"						"0"
 	"The Infernal Orchestrina"					"0"
-	"The Lollichop"							"0"
+	"The Lollichop"							"1"
 	"The Rainblower"						"0"
 
 	//------ Noise making/Explosion on death miscs (Total: 3) -------\\
