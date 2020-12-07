@@ -48,11 +48,11 @@ After setting up, restart the server. If the plugin is working correctly, tf2ite
 
 ### Usage - Community
 
-For community usage, all that needs to be done is have the plugin installed. After it's installed, you're all sets
+For community usage, all that needs to be done is have the plugin installed. After it's installed, you're all set
 
 ### Usage - Competitive
 
-For competitive usage, this plugin recognizes [RGL](rgl.gg) as the standard for 6v6 and 9v9 KOTH and Stopwatch. [ETF2L](http://etf2l.org/rules/configs/) is recognized for CTF and 5CP.
+For competitive usage, this plugin recognizes [UGC](https://www.ugcleague.com/files_tf2h.cfm) as the standardized configuration for 6v6 and 9v9 KOTH and Stopwatch. [ETF2L](http://etf2l.org/rules/configs/) is recognized for CTF and 5CP.
 
 To usage in a competitive format, ensure the plugin is installed correctly.
 
