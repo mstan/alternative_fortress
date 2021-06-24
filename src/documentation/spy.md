@@ -146,6 +146,7 @@ Spycicle
 ```yaml
 + Disguises do not ignite
 + Afterburn immunity
++ +25 HP bonus
 ```
 ```diff
 - Victims turn to ice

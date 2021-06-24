@@ -942,11 +942,11 @@
             "preserve-attributes"   "0"
             "quality"               "10"
             "1"                     "347    ;   1"      // victim turns to ice
-			"2"						"168	; 	1"		// disguise doesn't burn
-			"3"						"364	;	1"		// add jingle to movement
-			"4"						"527	;	1"		// afterburn immunity
-			//"5"						"26		; 	15"		// 15 health additive bonus
-            "5"                     "214    ;   1"      // kill eater | count strange kills 
+            "2"                     "168    ;   1"      // disguise doesn't burn
+            "3"                     "364    ;   1"      // add jingle to movement
+            "4"                     "527    ;   1"      // afterburn immunity
+            "5"                     "26     ;   25"     // 15 health additive bonus
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "656" // Holiday punch
         {
