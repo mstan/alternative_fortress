@@ -121,11 +121,11 @@ Your Eternal Reward
 Conniver's Kunai
 ```
 ```yaml
-+ Gain up to 200 HP in overheal on backstab.
++ 33% damage reduction from all sources
 ```
 ```diff
-- Max health degenerates to 100 when knife is active
-- Lose overheal bonus when switching to Revolver, Sapper, or disguise kit
+- +75% airblast knockback vulnerability
+- -7% move speed penalty
 ```
 
 
@@ -144,12 +144,12 @@ Big Earner
 Spycicle
 ```
 ```yaml
-+ +33% damage reduction bonus
++ Disguises do not ignite
++ Afterburn immunity
 ```
 ```diff
 - Victims turn to ice
-- +75% vulnerability to airblast knockback penalty
-- -7% move speed penalty
+- Movement causes festive jingling
 ```
 
 

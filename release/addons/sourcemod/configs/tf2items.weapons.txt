@@ -615,7 +615,10 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "214    ;   1"      // kill eater | count strange kills 
+            "1"                     "852    ;   .67"     // 33% dmg redcution
+            "2"                     "534    ;   1.75"   // airblast vuln
+            "3"                     "54     ;   .93"    // 7% less move speed
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "357" // Zatoichi
         {
@@ -939,9 +942,10 @@
             "preserve-attributes"   "0"
             "quality"               "10"
             "1"                     "347    ;   1"      // victim turns to ice
-            "2"                     "852    ;   .8"     // 20% dmg redcution
-            "3"                     "534    ;   1.75"   // airblast vuln
-            "4"                     "54     ;   .93"    // 7% less move speed
+			"2"						"168	; 	1"		// disguise doesn't burn
+			"3"						"364	;	1"		// add jingle to movement
+			"4"						"527	;	1"		// afterburn immunity
+			//"5"						"26		; 	15"		// 15 health additive bonus
             "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "656" // Holiday punch
