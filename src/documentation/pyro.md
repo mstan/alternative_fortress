@@ -1,11 +1,7 @@
 __**Primary**__
 
-
-
-
-
 ```fix
-Rainblower
+Flamethrower
 ```
 ```
 Unchanged
@@ -13,7 +9,37 @@ Unchanged
 
 
 ```fix
-Dragon's Fury
+Backburner
+```
+```yaml
++ Flamethrower crits targets from behind
++ Flames bounce off surfaces
++ Airblast pulls enemies towards the ground
++ 50% flame life duration from reflected surfaces
+```
+```diff
+- +50% longer airblast refire interval
+```
+
+```fix
+Degreaser
+```
+```yaml
++ Airblasting allies grants a speed boost to both players
++ 50% faster airbalst refire rate
++ 50% more pushback on airblast
+```
+```diff
+- Cannot extinguish teammates
+- +300% ammo consumed per second
+```
+```
+Turn reflected projectiles into small ammo boxes
+```
+
+
+```fix
+Phlogistinator
 ```
 ```
 Unchanged
