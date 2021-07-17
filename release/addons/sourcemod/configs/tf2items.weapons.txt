@@ -129,7 +129,7 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "209    ;   1"      // minicrit vs burning
+            "1"                     "20    ;   1"      // minicrit vs burning
             "2"                     "77     ;   .5"     // -50% primary max ammo
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
@@ -1314,9 +1314,9 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "215    ;   -800"   // apply -800 z velocity on damage
-            "2"                     "306    ;   1"      // can't headshot without full charge
-            "3"                     "305    ;   1"      // sniper fires tracer
+            "1"                     "305    ;   1"      // sniper fires tracer
+            "2"                     "41     ;   1.5"    // 50% faster charge rate on sniper rifle
+            "3"                     "378    ;   .6"     // -40% move speed penalty while scoped
             "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
     }

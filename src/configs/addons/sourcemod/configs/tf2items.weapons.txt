@@ -129,7 +129,7 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "209    ;   1"      // minicrit vs burning
+            "1"                     "20    ;   1"      // minicrit vs burning
             "2"                     "77     ;   .5"     // -50% primary max ammo
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
@@ -615,7 +615,10 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "214    ;   1"      // kill eater | count strange kills 
+            "1"                     "852    ;   .67"     // 33% dmg redcution
+            "2"                     "534    ;   1.75"   // airblast vuln
+            "3"                     "54     ;   .93"    // 7% less move speed
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "357" // Zatoichi
         {
@@ -939,10 +942,11 @@
             "preserve-attributes"   "0"
             "quality"               "10"
             "1"                     "347    ;   1"      // victim turns to ice
-            "2"                     "852    ;   .8"     // 20% dmg redcution
-            "3"                     "534    ;   1.75"   // airblast vuln
-            "4"                     "54     ;   .93"    // 7% less move speed
-            "5"                     "214    ;   1"      // kill eater | count strange kills 
+            "2"                     "168    ;   1"      // disguise doesn't burn
+            "3"                     "364    ;   1"      // add jingle to movement
+            "4"                     "527    ;   1"      // afterburn immunity
+            "5"                     "26     ;   25"     // 15 health additive bonus
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "656" // Holiday punch
         {
@@ -1310,9 +1314,9 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "215    ;   -800"   // apply -800 z velocity on damage
-            "2"                     "306    ;   1"      // can't headshot without full charge
-            "3"                     "305    ;   1"      // sniper fires tracer
+            "1"                     "305    ;   1"      // sniper fires tracer
+            "2"                     "41     ;   1.5"    // 50% faster charge rate on sniper rifle
+            "3"                     "378    ;   .6"     // -40% move speed penalty while scoped
             "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
     }

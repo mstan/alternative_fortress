@@ -94,7 +94,7 @@ Scottish Resistance
 ```
 
 ```
-Quickly deploy a number of incredibly strong stickies. However, their arm time is considerable and they don't last long. Consider holding right click to rapidly deploy them as they come up and deny a choke.
+When the Scottish Resistance is active, all healing is converted to increased reload speed. With no medic, reloading is slower.
 ```
 
 
