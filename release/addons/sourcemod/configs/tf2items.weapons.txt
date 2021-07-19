@@ -742,25 +742,25 @@
             "3"                     "275    ;   1"      // cancel falling damage
             "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
-//        "425" // Family business
-//        {
-//            "preserve-attributes"   "0"
-//            "quality"               "10"
-//            "1"                     "4      ;   1.5"    // +50% clip size bonus
-//            "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
-//            "3"                     "214    ;   1"      // kill eater | count strange kills 
-//        }
-        "425" // Family business
+        "425" // Family business - limited primary
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "4      ;   4"    // 400% clip size bonus
-			"2"						"318	;	.25"  // 400% faster reload rate
-            "3"                     "77     ;   0"    // -100% reduction in primary minigun ammo penalty
-            "4"                     "6      ;   .35"  // +65% fire rate bonus
-			"5"                     "36     ;   1.1"    // +10% spread penalty
-            "6"                     "214    ;   1"    // kill eater | count strange kills 
+            "1"                     "4      ;   1.5"    // +50% clip size bonus
+            "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
+//      "425" // Family business - No primary
+//      {
+//        "preserve-attributes"   "0"
+//        "quality"               "10"
+//        "1"                     "4      ;   4"    // 400% clip size bonus
+//		  "2"					  "318	  ;	.25"  // 400% faster reload rate
+//        "3"                     "77     ;   0"    // -100% reduction in primary minigun ammo penalty
+//        "4"                     "6      ;   .35"  // +65% fire rate bonus
+//		  "5"                     "36     ;   1.1"    // +10% spread penalty
+//        "6"                     "214    ;   1"    // kill eater | count strange kills 
+//      }
         "424" // Tomislav
         {
             "preserve-attributes"   "0"
@@ -853,6 +853,16 @@
             "2"                     "82     ;   2.10"   // +110% faster cloak consumption penalty
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
+        "466" // Maul
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "146    ;   1"      // can damage sappers
+            "2"                     "226    ;   1"      // honorbound - sheathing without killing costs 50 HP
+            "3"                     "137    ;   2.5"    // +150% damage vs buildings
+            "4"                     "224    ;   .5"     // -50% damage penalty while half dead
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
         "482" // Nessie's Nine Iron
         {
             "preserve-attributes"   "0"
@@ -909,6 +919,16 @@
             "1"                     "438    ;   1"      // crit vs wet players
             "2"                     "1      ;   .75"    // -25% damage penalty
             "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "574" // Wanga Prick
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "6      ;   .75"    // +25% fire rate bonus
+            "2"                     "150    ;   1"      // victims turn to gold
+            "3"                     "736    ;   2"      // +2s speed boost on kill
+            "4"                     "221    ;   1.35"   // +35% decloaking duration penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "588" // Pomson 6000
         {
