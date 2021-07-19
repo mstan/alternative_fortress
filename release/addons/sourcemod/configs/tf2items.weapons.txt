@@ -158,7 +158,7 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "215    ;   250"    // apply 250 positive z velocity
+            "1"                     "215    ;   750"    // apply 750 positive z velocity
             "2"                     "1      ;   .75"    // -25% damage penalty
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
@@ -506,6 +506,14 @@
             "5"                     "3      ;   .75"    // 25% clip size penalty
             "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
+//      "308" // Loch n Load - Hitscan
+//      {
+//          "preserve-attributes"   "0"
+//          "quality"               "10" 
+//          "1"                     "280    ;   1"      // override projectile to flares
+//          "2"                     "1      ;   .75"    // damage penalty 25%
+//         "3"                     "305    ;   1"      // sniper fires tracer
+//      }
         "310" // Warrior's Spirit
         {
             "preserve-attributes"   "0"
@@ -734,13 +742,24 @@
             "3"                     "275    ;   1"      // cancel falling damage
             "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
+//        "425" // Family business
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "4      ;   1.5"    // +50% clip size bonus
+//            "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
+//            "3"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
         "425" // Family business
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "4      ;   1.5"    // +50% clip size bonus
-            "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
-            "3"                     "214    ;   1"      // kill eater | count strange kills 
+            "1"                     "4      ;   4"    // 400% clip size bonus
+			"2"						"318	;	.25"  // 400% faster reload rate
+            "3"                     "77     ;   0"    // -100% reduction in primary minigun ammo penalty
+            "4"                     "6      ;   .35"  // +65% fire rate bonus
+			"5"                     "36     ;   1.1"    // +10% spread penalty
+            "6"                     "214    ;   1"    // kill eater | count strange kills 
         }
         "424" // Tomislav
         {
@@ -882,6 +901,14 @@
             "2"                     "45     ;   1.25"   // +25% bullet sper shot bonus
             "3"                     "36     ;   1.1"    // +10% spread penalty
             "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "572" // Unarmed Combat
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "438    ;   1"      // crit vs wet players
+            "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "588" // Pomson 6000
         {

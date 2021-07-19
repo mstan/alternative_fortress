@@ -141,6 +141,19 @@ Fists
 Unchanged
 ```
 
+```fix
+Killing Gloves of Boxing
+```
+```yaml
++ Damage applies upward knockback
+```
+```diff
+- -25% damage penalty
+```
+```
+Punches knock enemies upward
+```
+
 
 ```fix
 Gloves of Running Urgently
