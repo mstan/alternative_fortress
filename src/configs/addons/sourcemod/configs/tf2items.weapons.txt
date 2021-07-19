@@ -1260,6 +1260,16 @@
             "8"                     "400    ;   1"      // cannot pickup intel
             "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
+        "1100" // Bread Bite
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "442    ;   1.35"   // +35% faster move speed bonus 
+            "2"                     "128    ;   1"      // provide attributes on active on active
+            "3"                     "852    ;   1.5"    // +50% damage vuln penalty
+            "4"                     "772    ;   2.25"   // +125% holster penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
         "1101" // B.A.S.E. Jumper
         {
             "preserve-attributes"   "1"
