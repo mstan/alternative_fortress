@@ -207,11 +207,13 @@ Tank melee for a tank class. Heavy is totally immobile while deployed but can si
 Eviction Notice
 ```
 ```yaml
-+ +40% faster holster bonus
-+ +5 seconds of bleed on hit
++ Damage applies to sappers
++ +100% damage vs buildings
++ While active: -50% push force from damage and airblast
 ```
 ```diff
-- 50% damage penalty
+- No random crits
+- -35% damage vs players
 ```
 
 

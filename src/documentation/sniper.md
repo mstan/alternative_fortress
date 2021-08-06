@@ -11,8 +11,13 @@ Unchanged
 ```fix
 Huntsman
 ```
+```yaml
+Huntsman:
++ Projectiles penetrate players
 ```
-Unchanged
+
+```diff
+- Mini-Crits instead of crits
 ```
 
 

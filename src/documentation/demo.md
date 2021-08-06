@@ -279,11 +279,13 @@ A kamikaze weapon.
 Claidheamh Mor
 ```
 ```yaml
-+ Decapitations earn health and speed boost
-+ 35% melee range bonus
++ +0.5s charge duration on wearer
++ +300% charge control on wearer
++ +35% melee range
 ```
 ```diff
-- -25 max HP penalty
+- -25 max HP
+- No random crits
 ```
 
 

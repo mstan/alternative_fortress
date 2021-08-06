@@ -59,26 +59,56 @@ Unchanged
 ```fix
 Flare Gun
 ```
+```yaml
++ Mark targets for death on hit
++ Crits vs burning targets
+- -50% damage
+- Crits have falloff
+- -50% afterburn duration
 ```
-Unchanged
+```diff
+- -50% damage
+- Crits have falloff
+- -50% afterburn duration
 ```
 
 
 ```fix
 Detonator
 ```
+```yaml
++ Alt-fire: Detonate flare
++ +35% deploy/holster speed
++ +50% push force from self damage
++ No falling damage on wearer
+
 ```
-Unchanged
+```diff
+- -50% damage
+- -50% afterburn damage
 ```
 
 
 ```fix
 Scorch Shot
 ```
+```yaml
+Scorch Shot
++ Drops another pellet on direct hit
++ +50% burn duration
++ +25% burn damage
+
 ```
-Unchanged
+```diff
+- -65% damage
 ```
 
+```fix
+Scorch Shot
+```
+```yaml
++ Extinguishes now grant +60 HP
+```
 
 ```fix
 Reserve Shooter
@@ -199,10 +229,12 @@ Master of damage over time. Pyro can now add both bleed and fire.
 Sharpened Volcano Fragment
 ```
 ```yaml
-+ +25 HP on wearer
++ Marks targets for death on hit
++ +35% holster speed
+
 ```
 ```diff
-- -50% healing from all sources
+- -80% damage
 ```
 
 
@@ -210,11 +242,12 @@ Sharpened Volcano Fragment
 Third Degree
 ```
 ```yaml
-+ +25% damage bonus
-+ Always crit from behind
++ Overheal yourself fully on kill
++ +3s crit boost on kill
 ```
 ```diff
-- Critical hits do no damage
+- -15 health per second while active
+- No random crits
 ```
 
 

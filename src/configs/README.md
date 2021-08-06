@@ -1,1 +1,0 @@
-This configuration file is the source file for this project and responsible for all the unique weapons. This config file is leveraged by tf2items, a plugin used within sourcemod.

@@ -104,7 +104,7 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "17     ;   .02"    // +3% ubercharge on hit
+            "1"                     "17     ;   .02"    // +2% ubercharge on hit
             "2"                     "3      ;   .5"     // -25% clip size penalty
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
@@ -129,14 +129,25 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "20    ;   1"      // minicrit vs burning
+            "1"                     "20    ;   1"      // crit vs burning
             "2"                     "77     ;   .5"     // -50% primary max ammo
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"39" // Flare Gun
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "25	   ;    0.5"	// -50% max ammo
+	    "2"			    "218    ;    1"	// mark for death on hit
+	    "3"			    "1	    ;    0.5"	// -50% dmg
+	    "4"			    "868    ;    1"	// crits have falloff
+	    "5"			    "74	    ;    0.5"	// -50% afterburn time
+	    "6"			    "241    ;    1"	// kill eater | count strange
+	}
         "40" // Backburner
         {
-            "preserve-attributes"   "1" 
-            "quality"               "10"                // must preserve. bugged otherwise.
+            "preserve-attributes"   "1" 		// must preserve. bugged otherwise
+            "quality"               "10"                
             "1"                     "838    ;   1"      // flame particles bounce off surfaces
             "2"                     "837    ;   1.5"    // +50% reflected flame length bonus
             "3"                     "256    ;   1.5"    // +50% airblast refire time penalty
@@ -186,6 +197,15 @@
             "8"                     "96     ;   1.1"    // +10% reload time increase
             "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"56" // Huntsman
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "37	    ;   0.5"	// -50% ammo
+	    "2"		    	    "869    ;   1"	// crits become minicrits
+	    "3"			    "266    ;   1"	// projectile penetration
+	    "4"			    "214    ;   1"	// kill eater | count strange
+	}
         "57" // Razorback
         {
             "preserve-attributes"   "0"
@@ -222,7 +242,7 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "125    ;   -25"    // -50 HP max health penalty
+            "1"                     "125    ;   -25"    // -25 HP max health penalty
             "2"                     "800    ;   1.5"    // +50% patient max overheal bonus 
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
@@ -302,7 +322,7 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "239    ;   1.05"   // 20% extra charge rate for healer
+            "1"                     "239    ;   1.05"   // 5% extra charge rate for healer
             "2"                     "69     ;   .75"    // 25% less healing from healers
             "3"                     "800    ;   .5"     // -50% overhealing on patient
             "4"                     "214    ;   1"      // kill eater | count strange kills 
@@ -562,11 +582,13 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "219    ;   1"      // decap type (collects heads)
+            "1"                     "15    ;   0"      // no random crits
             "2"                     "781    ;   1"      // is a sword
             "3"                     "125    ;   -25"    // -25 HP max health additive penalty
             "4"                     "263    ;   1.35"   // +35% melee range multiplier bonus
-            "5"                     "214    ;   1"      // kill eater | count strange kills 
+	    "5"			    "246    ;   4"	// +300% charge turn control
+	    "6"			    "202    ;   0.5"	// +0.5s charge time
+            "7"                     "214    ;   1"      // kill eater | count strange kills
         }
         "329" // The Jag
         {
@@ -598,9 +620,10 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "2067   ;   1"      // attacks vs burning minicrits and extinguishes enemy. speed boost on kill.
-            "2"                     "1      ;   .9"     // -10% damage penalty
-            "3"                     "214    ;   1"      // kill eater | count strange kills 
+            "1"                     "218   ;   1"      // mark for death on hit
+            "2"                     "1      ;   .2"     // -80% damage penalty
+	    "3"			    "199    ;   0.65"	// +35% faster deploy
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "349" // Sun on a stick
         { 
@@ -610,6 +633,20 @@
             "2"                     "61     ;   1.5"    // +50% vulnerability from fire
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"351" // Detonator
+	{
+	    "preserve-attributes"   "1" 		// necessary for explosion
+	    "quality"		    "10"
+	    "1"			    "25     ;   0.5"	// -50% ammo carried hidden
+	    "2"			    "1	    ;   0.5"	// -50% dmg
+	    "3"			    "72	    ;   0.5"	// -50% afterburn dmg
+	    "4"			    "58     ;   1.5"	// +50% self push force
+	    "5"			    "135    ;   0.75"	// -25% blast dmg to self
+	    "6"			    "547    ;   0.65"	// 35% faster deploy
+	    "7"			    "199    ;   0.65"	// 35% faster holster
+	    "8"			    "275    ;   1"	// cancel falling damage
+	    "9"			    "214    ;   1"	// kill eater | count strange
+	}
         "355" // Fan O War
         {
             "preserve-attributes"   "0"
@@ -740,27 +777,29 @@
             "1"                     "267    ;   1"      // crit while airborne by explosive jumping
             "2"                     "206    ;   1.75"   // 150% melee damage vulnerability while active
             "3"                     "275    ;   1"      // cancel falling damage
-            "4"                     "214    ;   1"      // kill eater | count strange kills 
+	    "4"			    "128    ;   1"	// provide on active
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
-        "425" // Family business - limited primary
-        {
-            "preserve-attributes"   "0"
-            "quality"               "10"
-            "1"                     "4      ;   1.5"    // +50% clip size bonus
-            "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
-            "3"                     "214    ;   1"      // kill eater | count strange kills 
-        }
-//      "425" // Family business - No primary
-//      {
-//        "preserve-attributes"   "0"
-//        "quality"               "10"
-//        "1"                     "4      ;   4"    // 400% clip size bonus
-//		  "2"					  "318	  ;	.25"  // 400% faster reload rate
-//        "3"                     "77     ;   0"    // -100% reduction in primary minigun ammo penalty
-//        "4"                     "6      ;   .35"  // +65% fire rate bonus
-//		  "5"                     "36     ;   1.1"    // +10% spread penalty
-//        "6"                     "214    ;   1"    // kill eater | count strange kills 
-//      }
+//        "425" // Family business - limited primary
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "4      ;   1.5"    // +50% clip size bonus
+//            "2"                     "77     ;   .4"     // -60% reduction in primary minigun ammo penalty
+//            "3"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+      "425" // Family business - No primary
+      {
+        "preserve-attributes"   "0"
+        "quality"               "10"
+        "1"                     "4      ;   4"    // 400% clip size bonus
+		  "2"					  "318	  ;	.50"  // 200% faster reload rate
+        "3"                     "77     ;   0"    // -100% reduction in primary minigun ammo penalty
+        "4"                     "6      ;   .35"  // +65% fire rate bonus
+		  "5"                     "808     ;   1"    // spread increases per shot
+		  "6"					"1      ;   .65"     // -35% damage penalty
+        "7"                     "214    ;   1"    // kill eater | count strange kills 
+      }
         "424" // Tomislav
         {
             "preserve-attributes"   "0"
@@ -774,10 +813,14 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "199    ;   .6"     // +40% faster holster bonus
-            "2"                     "1      ;   .5"     // -50% damage penalty
-            "3"                     "149    ;   5"      // add 5 seconds of bleed on hit
-            "4"                     "214    ;   1"      // kill eater | count strange kills 
+            "1"                     "146    ;   1"     // damage applies to sappers
+            "2"                     "137      ;   2"     // +100% dmg to buildings
+            "3"                     "138    ;   0.65"      // -35% dmg to players
+	    "4"			    "252    ;   0.5"	// -50% push from dmg
+	    "5"			    "329    ;   0.5"	// -50% push from airblast
+	    "6"			    "128    ;   1"	// provide on active
+	    "7"			    "15     ;   0"	// no random crits
+            "8"                     "214    ;   1"      // kill eater | count strange kills  
         }
         "442" // Righteous Bison
         {
@@ -807,7 +850,7 @@
             "5"                     "250    ;   1"      // enable triple jump
             "6"                     "868    ;   1"      // crits affected by falloff
             "7"                     "288    ;   1"      // cannot be crit boosted
-            "8"                     "1      ;   .65"    // minicrits become crits
+            "8"                     "1      ;   .65"    // -35% damage
             "9"                     "214    ;   1"      // kill eater | count strange kills 
         }
         "449" // Winger
@@ -956,11 +999,23 @@
         {
             "preserve-attributes"   "0"
             "quality"               "10"
-            "1"                     "362    ;   1"      // always crit from behind
-            "2"                     "2      ;   1.25"   // +25% damage bonus
-            "3"                     "363    ;   1"      // critical hits do no damage
-            "4"                     "214    ;   1"      // kill eater | count strange kills 
+            "1"                     "220    ;   150"      // 150% health on kill
+            "2"                     "57      ;   -35"   // -35 health per sec
+	    "3"			    "31	    ;   3"	// 3s critboost on kill
+            "4"                     "15    ;   0"      // random crits disabled
+	    "5"			    "128    ;  1"	// provide on active
+            "6"                     "214    ;   1"      // kill eater | count strange kills
         }
+	"595" // Manmelter
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "281    ;    1"	// no ammo
+	    "2"			    "367    ;    1"	// extinguish earns crits
+	    "3"			    "15    ;    0"	// no random crits
+	    "4"			    "783    ;    60"	// extinguish +60 health
+	    "5"			    "214    ;    1"	// kill eater | count strange kills
+	}
         "608" // Bootlegger
         {
             "preserve-attributes"   "0"
@@ -1032,9 +1087,20 @@
             "quality"               "10"
             "1"                     "358    ;   1"      // critical hits forces victim to laugh
             "2"                     "363    ;   1"      // critical hits do no damage
-            "3"                     "362    1   1"      // always crit from behind
+            "3"                     "362    ;   1"      // always crit from behind
             "4"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"740" // Scorch Shot
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "25     ;   0.5"	// hidden 50% ammo penalty
+	    "2"			    "1 	    ;   0.35"	// -65% dmg
+	    "3"			    "416    ;   3"	// fires knockback pellets
+	    "4"			    "73     ;   1.5"	// +50% burn duration
+	    "5"			    "71     ;   1.25"	// +25% burn dmg
+	    "6"			    "214    ;   1"	// kill eater | count strange
+	}
         "751" // Cleaner's Carbine
         {
             "preserve-attributes"   "0"
@@ -1101,11 +1167,9 @@
             "5"                     "5      ;   1.4"    // -40% fire rate penalty
             "6"                     "868    ;   1"      // crits affected by falloff
             "7"                     "289    ;   1"      // centerfire projectile
-            "8"                     "20     ;   1"      // crit vs burning
-            "9"                     "179    ;   1"      // minicrits become crits
-            "10"                    "411    ;   2"      // +2 degrees projectile deviation
-            "11"                    "77     ;   .75"    // -25% clip size penalty
-            "12"                    "214    ;   1"      // kill eater | count strange kills 
+            "8"                    "411    ;   2"      // +2 degrees projectile deviation
+            "9"                    "77     ;   .75"    // -25% clip size penalty
+            "10"                    "214    ;   1"      // kill eater | count strange kills
         }
         "813" // Neon
         {
@@ -1171,6 +1235,15 @@
             "4"                     "136    ;   1"      // mod sentry killed revenge
             "5"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"1005" // Festive Huntsman
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "37	    ;   0.5"	// -50% ammo
+	    "2"		    	    "869    ;   1"	// crits become minicrits
+	    "3"			    "266    ;   1"	// projectile penetration
+	    "4"			    "214    ;   1"	// kill eater | count strange
+	}
         "1006" // Festive Ambassador
         {
             "preserve-attributes"   "0"
@@ -1207,6 +1280,18 @@
             "5"                     "42     ;   1"      // sniper no headshots
             "6"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"1081" // Festive Flare Gun
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "25	   ;    0.5"	// -50% max ammo
+	    "2"			    "218    ;    1"	// mark for death on hit
+	    "3"			    "1	    ;    0.5"	// -50% dmg
+	    "4"			    "868    ;    1"	// crits have falloff
+	    "5"			    "74	    ;    0.5"	// -50% afterburn time
+	    "6"			    "179    ;    1"	// minicrits become crits
+	    "7"			    "241    ;    1"	// kill eater | count strange
+	}
         "1082" // Festive Eyelander
         {
             "preserve-attributes"   "0"
@@ -1235,6 +1320,15 @@
             "2"                     "99     ;   1.10"   // +15% bigger splash radius bonus
             "3"                     "214    ;   1"      // kill eater | count strange kills 
         }
+	"1092" // Fortified Compound
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "37	    ;   0.5"	// -50% ammo
+	    "2"		    	    "869    ;   1"	// crits become minicrits
+	    "3"			    "266    ;   1"	// projectile penetration
+	    "4"			    "214    ;   1"	// kill eater | count strange
+	}
         "1098" // Classic
         {
             "preserve-attributes"   "0"
