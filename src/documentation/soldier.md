@@ -286,10 +286,9 @@ Market Gardener
 ```
 ```yaml
 + Crit targets while blast jumping
-+ No falling damage
 ```
 ```diff
-- +75% damage from melee sources while active.
+- +75% damage from melee sources while active
 ```
 
 
