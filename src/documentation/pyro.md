@@ -93,7 +93,6 @@ Detonator
 Scorch Shot
 ```
 ```yaml
-Scorch Shot
 + Drops another pellet on direct hit
 + +50% burn duration
 + +25% burn damage
@@ -104,7 +103,7 @@ Scorch Shot
 ```
 
 ```fix
-Scorch Shot
+Manmelter
 ```
 ```yaml
 + Extinguishes now grant +60 HP
@@ -203,11 +202,10 @@ Homewrecker
 Powerjack
 ```
 ```yaml
-+ Piledrive airborne targets, causing them to crater
-+ 20% deploy speed bonus
++ +25% HP on wearer
 ```
 ```diff
-- -66% damage penalty
+- -50% healing received
 ```
 
 

@@ -51,20 +51,17 @@ Tomislav
 Huo Long Heater
 ```
 ```yaml
-Shoots rapid-fire flares instead of bullets
-Critical hits vs burning players
-Minicrits become crits
-Ring of fire while aiming
-Centerfires projectile
++ Ring of fire while aiminig
+
++Minicrits become crits
++ Ring of fire while aiming
++ Centerfires projectile
 
 ```
 ```diff
-- 20% damage penalty
-- Consume ammo while aiming
-- 25% less ammo on wearer
-- 66% slower projectiles
-- Critical hits affected by falloff
-- 225% fire rate penalty
+- Consumes ammo while aiminig
+- -40% fire rate 
+- -25% ammo on wearer
 ```
 ```
 A special type of minigun. Excels at wreaking havoc by spouting fire everywhere.
@@ -109,10 +106,14 @@ Unchanged
 Family Business
 ```
 ```yaml
-+ +50% clip size
++ +400% clip size
++ +200% faster reload
++ +65% faster fire rate 
 ```
 ```diff
-- 60% primary ammo on wearer
+Spread increases on consecutive shots
+- -35% damage
+- -100% primary (minigun) ammo on wearer
 ```
 
 

@@ -1,3 +1,62 @@
+## v0.2.0
+
+Sharpened Volcano Fragment:
+(+) Marks targets for death on hit
+(+) +35% holster speed
+(-) -80% damage
+
+Third Degree:
+(+) Overheal yourself fully on kill
+(+) +3s crit boost on kill
+(-) -15 health per second while active
+(-) No random crits
+
+Flare Gun:
+(+) Mark targets for death on hit
+(+) Crits vs burning targets
+(-) -50% damage
+(-) Crits have falloff
+(-) -50% afterburn duration
+
+Detonator:
+(+) Alt-fire: Detonate flare
+(+) +35% deploy/holster speed
+(+) +50% push force from self damage
+(+) No falling damage on wearer
+(-) -50% damage
+(-) -50% afterburn damage
+
+Scorch Shot
+(+) Drops another pellet on direct hit
+(+) +50% burn duration
+(+) +25% burn damage
+(-) -65% damage
+
+Manmelter:
+Same, but now (+) +60 health on extinguish
+
+
+Claidheamh Mor:
+(+) +0.5s charge duration on wearer
+(+) +300% charge control on wearer
+(+) +35% melee range
+(-) -25 max HP
+(-) No random crits
+
+Eviction Notice: 
+(+) Damage applies to sappers
+(+) +100% damage vs buildings
+(+) While active: -50% push force from damage and airblast
+(-) No random crits
+(-) -35% damage vs players
+
+Huntsman:
+(+) Projectiles penetrate players
+(-) Mini-Crits instead of crits
+
+
+
+
 ## v0.1.5
 
 ### Changes
