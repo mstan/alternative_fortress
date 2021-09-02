@@ -112,7 +112,7 @@ __**Melee**__
 Bonesaw
 ```
 ```
-Unchanged
++50% knockback taken from all sources
 ```
 
 
@@ -149,7 +149,12 @@ A weapon to add extra HP at cost of movement speed. Wielding the weapon provides
 Amputator
 ```
 ```yaml
-+ +50% more knockback from all sources
++ +20 health regen while active
++ Medicating Melody taunt
+```
+```diff
+- -80% move speed while active
+- 100% slower holster
 ```
 
 
