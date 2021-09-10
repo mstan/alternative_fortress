@@ -4,8 +4,13 @@ __**Primary**__
 ```fix
 Scattergun
 ```
+```yaml
++ Hold Fire to load up to three shots
++ +60% firing speed
 ```
-Unchanged
+```diff
+- -20% accuracy
+- -10% reload speed
 ```
 
 
@@ -89,8 +94,11 @@ __**Secondary**__
 Pistol
 ```
 ```
-Unchanged
+Fires syringes instead of bullets
 ```
+```yaml
++ +100% clip size
++ +100% ammo carried```
 
 
 ```fix
