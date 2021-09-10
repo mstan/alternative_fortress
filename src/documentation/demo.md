@@ -4,8 +4,12 @@ __**Primary**__
 ```fix
 Grenade Launcher
 ```
+```yaml
++ +15% blast radius
++ +50% damage on time-detonated grenades
 ```
-Unchanged
+```diff
+- -25% projectile speed
 ```
 
 ```fix
@@ -44,7 +48,13 @@ Bootlegger
 Loose Cannon
 ```
 ```
-Unchanged
+Uses base Loose Cannon attributes
+```
+```yaml
++ -50% self-damage while active
+```
+```diff
+- +15% damage vulnerability while active
 ```
 
 
@@ -77,8 +87,13 @@ __**Secondary**__
 ```fix
 Stickybomb Launcher
 ```
+```yaml
++ -25% self-damage from blast jumps
++ +10% blast radius
 ```
-Unchanged
+```diff
+- -25% clip size
+- -2 bombs out
 ```
 
 
@@ -188,8 +203,13 @@ __**Melee**__
 ```fix
 Bottle
 ```
+```yaml
++ Crits while blast jumping
++ No fall damage while active
++ +35% deploy speed
 ```
-Unchanged
+```diff
+- No random critical hits
 ```
 
 
