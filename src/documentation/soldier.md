@@ -4,8 +4,13 @@ __**Primary**__
 ```fix
 Rocket Launcher
 ```
+```yaml
++ +50% firing speed
++ +30% reload speed
 ```
-Unchanged
+```diff
+- -50% clip size
+- -15% damage
 ```
 
 
@@ -75,7 +80,14 @@ A melee designed to uncover spies. Especially helpful near sentries.
 Cow Mangler 5000
 ```
 ```
-Unchanged
+Uses base Cow Mangler stats
+```
+```yaml
++ Ignites enemies on hit
+```
+```diff
+- Ignites self on self-damage
+- -25% damage
 ```
 
 
@@ -235,8 +247,12 @@ __**Melee**__
 ```fix
 Shovel
 ```
+```yaml
++ +50% rage on hit
 ```
-Unchanged
+```diff
+- +30% damage vulnerability while active
+- No random critical hits
 ```
 
 
