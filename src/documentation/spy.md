@@ -5,7 +5,13 @@ __**Primary**__
 Revolver
 ```
 ```
-Unchanged
+Fires syringes instead of bullets
+```
+```yaml
++ Slow target for 5 seconds on hit
+```
+```diff
+- -66% clip size
 ```
 
 
@@ -84,13 +90,13 @@ Unchanged
 Red Tape Recorder
 ```
 ```yaml
-+100% sapper health bonus
++ Restore sapper damage as health
 ```
 ```diff
-- -150% damage done to buildings
+- -50% damage
 ```
 ```
-At the cost of actually healing enemy buildings--put a tanky sapper on them.
+Heal yourself as you wreck buildings.
 ```
 
 
