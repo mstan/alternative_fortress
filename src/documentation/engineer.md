@@ -90,7 +90,11 @@ __**Secondary**__
 Pistol
 ```
 ```
-Unchanged
+Fires syringes
+```
+```yaml
++ +100% clip size
++ +100% ammo carried
 ```
 
 
@@ -116,8 +120,18 @@ __**Melee**__
 ```fix
 Wrench
 ```
+```yaml
++ 10% rate of fire increase on sentry
++ 10% increase in sentry coverage radius
++ 20% building health
 ```
-Unchanged
+```diff
+- +50% increase in building cost penalty
+- +70% slower building construction rate penalty
+- -40% upgrade rate on buildings penalty
+```
+```
+Buildings are costly and slow to setup, but are much more effective.
 ```
 
 
@@ -179,17 +193,17 @@ For the support utility engineer. More versatile buildings at the cost of less s
 Eureka Effect
 ```
 ```yaml
-+ 10% rate of fire increase on sentry
-+ 10% increase in sentry coverage radius
-+ 20% building health
++ +15% move speed on wearer
++ +15% swing speed
++ +30% construction hit speed boost
++ -60% self-damage from sentry rockets
++ -50% teleporter cost
++ +100% teleporter build speed
++ Alt-fire: Teleport to spawn or to your exit teleporter
 ```
 ```diff
-- +50% increase in building cost penalty
-- +70% slower building construction rate penalty
-- -40% upgrade rate on buildings penalty
-```
-```
-Buildings are costly and slow to setup, but are much more effective.
+- -50% sentry fire rate
+- -10% building health
 ```
 
 __**PDA**__
