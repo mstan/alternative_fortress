@@ -4,7 +4,8 @@ __**Primary**__
 Flamethrower
 ```
 ```
-Unchanged
++25 degrees flame spread
+Increased flame drag
 ```
 
 
@@ -42,7 +43,7 @@ Turn reflected projectiles into small ammo boxes
 Phlogistinator
 ```
 ```
-Unchanged
+Applies Buff Banner boost instead of crits
 ```
 
 __**Secondary**__
@@ -62,9 +63,6 @@ Flare Gun
 ```yaml
 + Mark targets for death on hit
 + Crits vs burning targets
-- -50% damage
-- Crits have falloff
-- -50% afterburn duration
 ```
 ```diff
 - -50% damage
@@ -156,8 +154,13 @@ __**Melee**__
 ```fix
 Fire Axe
 ```
+```yaml
++ Crits on non-burning targets
 ```
-Unchanged
+```diff
+- Ignites target on hit
+- -50% damage
+- No random critical hits
 ```
 
 
