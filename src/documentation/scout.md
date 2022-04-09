@@ -5,12 +5,10 @@ __**Primary**__
 Scattergun
 ```
 ```yaml
-+ Hold Fire to load up to three shots
-+ +60% firing speed
++ Knockback on target and shooter
 ```
 ```diff
-- -20% accuracy
-- -10% reload speed
+- -34% clip size
 ```
 
 
@@ -18,18 +16,12 @@ Scattergun
 Force-a-Nature
 ```
 ```yaml
-+ +60% bullets per shot
++ Hold Fire to load two shots. Release to unleash them both in quick succession!
 
 ```
 ```diff
-- -25% damage penalty
-- -66% clip size penalty
-- -150% accuracy penalty
-- +10% longer reload penalty
-```
-
-```
-An extreme single shooter.
+- -66% clip size
+- 20% slower reload
 ```
 
 
@@ -141,10 +133,10 @@ Winger
 Pretty Boy's Pocket Pistol
 ```
 ```yaml
-+ Minicrits become crits
++ Fires a rocket which can be used to rocket jump
 ```
 ```diff
-- -50% clip size penalty
+- Drastically reduced clip size, ammo reserve, and firing speed
 ```
 
 
