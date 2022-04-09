@@ -57,7 +57,8 @@ Rescue Ranger
 ```
 ```yaml
 + Rapid burst fire of healing bolts
-+70% fire rate bonus
++ +70% fire rate bonus
++ Can heal teammates
 ```
 ```diff
 - 25% longer reload
@@ -65,7 +66,7 @@ Rescue Ranger
 - 50% clip size (3 bolts)
 ```
 ```
-Heal your sentry in a burst capacity.
+Heal your sentry (or teammates) in a burst capacity.
 ```
 
 
