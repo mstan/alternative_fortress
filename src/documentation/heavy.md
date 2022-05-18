@@ -15,13 +15,14 @@ Minigun
 Natascha
 ```
 ```yaml
-Apply downward momentum to airbone targets
++ -35% damage taken when below half health
++ -99% push force taken while spinning
++ Destroy projectiles on hit
++ +50% airblast resistance on wearer
 ```
 ```diff
 - -25% damage penalty
-```
-```
-A minigun designed to deny aerial bombers at the cost of damage. Also effective for fighting Scouts.
+- -2 ammo consumed per second while spinning
 ```
 
 ```fix
@@ -141,8 +142,12 @@ __**Melee**__
 ```fix
 Fists
 ```
+```yaml
++ +100% jump height while active
++ Deal damage to players you land on
 ```
-Unchanged
+```diff
+- Max health drains while active
 ```
 
 ```fix
