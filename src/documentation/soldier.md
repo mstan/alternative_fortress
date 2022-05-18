@@ -71,10 +71,6 @@ Liberty Launcher
 - -15% damage penalty
 - -25% clip size penalty
 ```
-```
-A melee designed to uncover spies. Especially helpful near sentries.
-```
-
 
 ```fix
 Cow Mangler 5000
@@ -87,7 +83,7 @@ Uses base Cow Mangler stats
 ```
 ```diff
 - Ignites self on self-damage
-- -25% damage
+- -15% damage
 ```
 
 
@@ -102,7 +98,7 @@ The Original
 - -50% self damage push force penalty
 ```
 ```
-Center files projectile
+Center fires projectile
 ```
 ```
 Extra fire power at the cost of mobility.
@@ -116,7 +112,6 @@ Beggar's Bazooka
 + 50% clip size bonus
 + 70% fire rate bonus
 + Rocket Specialist : Temporarily stun enemies in place after hitting them with a rocket.
-+ Damage causes knockback
 ```
 ```diff
 - Shoots miniature rockets
