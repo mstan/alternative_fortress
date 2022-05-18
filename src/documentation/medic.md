@@ -4,8 +4,11 @@ __**Primary**__
 ```fix
 Syringe Gun
 ```
+```yaml
++ Syringes apply Mad Milk for a short duration
 ```
-Unchanged
+```
+- -10% damage
 ```
 
 
