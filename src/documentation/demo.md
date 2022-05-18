@@ -29,6 +29,9 @@ Loch-n-Load
 ```fix
 Ali Baba's Wee Booties
 ```
+```
+Retains original stats
+```
 ```yaml
 + +60% less self blast damage
 ```
@@ -36,6 +39,9 @@ Ali Baba's Wee Booties
 
 ```fix
 Bootlegger
+```
+```
+Retains original stats
 ```
 ```yaml
 + Boots having falling stomp
@@ -102,6 +108,7 @@ Scottish Resistance
 ```
 ```yaml
 + +20% reload rate while being healed
++ Selectively detonate stickybombs
 ```
 ```diff
 - -20% reload rate while not being healed
