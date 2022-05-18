@@ -5,17 +5,20 @@ __**Primary**__
 Sniper Rifle
 ```
 ```yaml
-+ +10% damage
-+ +20% reload speed
-+ +20% fire rate
++ +15% damage
 ```
 ```diff
-- No charge
-- -90% speed while scoped
+- No firing unless zoomed
+- -25% damage on bodyshot
+- -50% charge rate
+- -10% movement speed while active
+```
+```
+Gray's notes: "I predict I will regret making this weapon, but I also want to see what will happen."
 ```
 
 ```fix
-Huntsman
+Huntsman [Fortified Compound]
 ```
 ```yaml
 Huntsman:
@@ -24,14 +27,6 @@ Huntsman:
 
 ```diff
 - Mini-Crits instead of crits
-```
-
-
-```fix
-Fortified Compound
-```
-```
-Unchanged
 ```
 
 
@@ -66,14 +61,16 @@ Faster than normal charge rate with the ability to make it even faster at the co
 
 
 ```fix
-The Machina
+The Machina [Shooting Star]
 ```
 ```yaml
-+ +50% sniper rifle charge rate bonus
++ Shot penetrates all players
++ Pierces damage resistance shields
 ```
 ```diff
-- -40% strafing speed while scoped penalty
-- -Sniper fires tracer
+- -20% damage vs players
+- Only fire while zoomed
+- Fires tracer bullet
 ```
 
 
@@ -104,6 +101,7 @@ The Classic
 ```
 ```yaml
 + Charge shots independently of scoping
++ No flinching while aiming
 ```
 ```diff
 - Minicrits when it would normally crit
@@ -115,10 +113,18 @@ __**Secondary**__
 ```fix
 SMG
 ```
+```yaml
++ +10% damage
++ +4 bullets per shot
 ```
-Unchanged
+```diff
+- -80% clip size and fire rate
+- -66% ammo carried
+- 200% slower firing speed
 ```
-
+```
+What do you mean, it's not a shotgun?
+```
 
 ```fix
 Razorback
