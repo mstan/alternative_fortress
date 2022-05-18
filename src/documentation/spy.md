@@ -8,10 +8,11 @@ Revolver
 Fires syringes instead of bullets
 ```
 ```yaml
-+ Slow target for 5 seconds on hit
++ Mark target for death on hit
 ```
 ```diff
-- -66% clip size
+- -50% clip size
+- -60% damage
 ```
 
 
@@ -107,7 +108,13 @@ __**Melee**__
 Knife
 ```
 ```
-Unchanged
+This weapon has a large melee range and deploys and holsters slower.
+```
+```diff
+- 50% slower swing speed
+```
+```
+Enjoy abusing hit registration!
 ```
 
 
